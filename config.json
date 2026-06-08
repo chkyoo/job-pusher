@@ -1,0 +1,35 @@
+{
+  "keywords": [
+    "OLED",
+    "display",
+    "micro oled",
+    "microdisplay",
+    "oledos",
+    "microled",
+    "디스플레이",
+    "마이크로 OLED",
+    "마이크로디스플레이",
+    "올레도스",
+    "마이크로LED"
+  ],
+  "sites": [
+    {
+      "name": "사람인 (Saramin)",
+      "search_url": "https://www.saramin.co.kr/zf_user/search/recruit?searchword={keyword}&recruitSort=reg_dt",
+      "item_selector": "div.item_recruit",
+      "title_selector": "h2.job_tit a",
+      "company_selector": "div.area_corp a, strong.corp_name a, .corp_name a",
+      "date_selector": "span.date, div.job_date span",
+      "base_url": "https://www.saramin.co.kr"
+    },
+    {
+      "name": "잡코리아 (JobKorea)",
+      "search_url": "https://www.jobkorea.co.kr/Search/?stext={keyword}&tabType=recruit&OrdType=1",
+      "item_selector": "div[data-sentry-component=\"CardJob\"]",
+      "title_selector": "a[class*=\"mb-0.5\"]",
+      "company_selector": "span[class*=\"mb-5\"] a",
+      "date_selector": "span.date, .date",
+      "base_url": "https://www.jobkorea.co.kr"
+    }
+  ]
+}
