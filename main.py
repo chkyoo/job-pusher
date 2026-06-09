@@ -35,6 +35,17 @@ def save_sent_jobs(sent_jobs_set):
 def main():
     print("=== Job Information Scraping & Notification Tool ===")
     
+    # Debug environment variables configuration safely
+    print("\n[Debug] Checking Environment Variables:")
+    required_vars = ["SMTP_SERVER", "SMTP_PORT", "SMTP_USER", "SMTP_PASSWORD", "RECIPIENT_EMAIL"]
+    for var in required_vars:
+        val = os.getenv(var)
+        if val:
+            masked = val[:2] + "*" * (len(val) - 2) if len(val) > 2 else "**"
+            print(f"  - {var}: 설정됨 (길이: {len(val)}, 마스킹: '{masked}')")
+        else:
+            print(f"  - {var}: 미설정 (비어있음 ❌)")
+            
     # 1. Initialize scraper
     scraper = JobScraper()
     
