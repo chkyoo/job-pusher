@@ -84,6 +84,26 @@ class JobScraper:
                 if not date or date.lower() == "n/a":
                     date = "상세 정보 참조"
 
+                # 4. Parse Career/Experience Info
+                career = "경력 정보 미상"
+                if "사람인" in site["name"] or "Saramin" in site["name"]:
+                    cond_el = item.select_one("div.job_condition")
+                    if cond_el:
+                        for sub_el in cond_el.find_all(True):
+                            text = sub_el.get_text(strip=True)
+                            if "경력" in text or "신입" in text:
+                                career = text
+                                break
+                        if career == "경력 정보 미상":
+                            career = cond_el.get_text(separator=" | ", strip=True)
+                elif "잡코리아" in site["name"] or "JobKorea" in site["name"]:
+                    for span in item.find_all("span"):
+                        text = span.get_text(strip=True)
+                        if "경력" in text or "신입" in text:
+                            if not any(x in text for x in ["스크랩", "관심기업", "My"]):
+                                career = text
+                                break
+
                 # Filter out jobs that don't match any keyword in the title or company to ensure relevancy
                 title_lower = title.lower()
                 company_lower = company.lower()
@@ -101,6 +121,7 @@ class JobScraper:
                     "company": company,
                     "link": link,
                     "date": date,
+                    "career": career,
                     "site_name": site["name"],
                     "keyword": kw_match_str
                 })

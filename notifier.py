@@ -35,20 +35,39 @@ class JobNotifier:
                 for kw in keywords
             ])
 
-            site_tag_color = "#e0f2fe" if "사람인" in job["site_name"] else "#fef3c7"
-            site_text_color = "#0369a1" if "사람인" in job["site_name"] else "#b45309"
+            # Build site badges dynamically (in case of merged jobs)
+            site_badges = []
+            for s in job["site_name"].split(","):
+                s = s.strip()
+                site_tag_color = "#e0f2fe" if "사람인" in s else "#fef3c7"
+                site_text_color = "#0369a1" if "사람인" in s else "#b45309"
+                site_badges.append(f'<span style="font-size: 11px; font-weight: 500; background-color: {site_tag_color}; color: {site_text_color}; padding: 2px 8px; border-radius: 6px; margin-left: 4px;">{s}</span>')
+            sites_html = "".join(site_badges)
+
+            # Build action buttons (multiple buttons if job was found on multiple sites)
+            buttons_html = ""
+            if "links" in job and len(job["links"]) > 1:
+                for site_name, link in job["links"].items():
+                    buttons_html += f'<a href="{link}" target="_blank" style="display: inline-block; background-color: #4f46e5; color: #ffffff; text-decoration: none; font-size: 11px; font-weight: 600; padding: 6px 12px; border-radius: 6px; margin-left: 6px; box-shadow: 0 1px 2px rgba(79, 70, 229, 0.15);">{site_name}</a>'
+            else:
+                buttons_html = f'<a href="{job["link"]}" target="_blank" style="display: inline-block; background-color: #4f46e5; color: #ffffff; text-decoration: none; font-size: 12px; font-weight: 600; padding: 6px 14px; border-radius: 6px; box-shadow: 0 2px 4px rgba(79, 70, 229, 0.2);">공고 상세보기</a>'
 
             cards_html += f"""
             <div style="background-color: #ffffff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px; margin-bottom: 15px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02); transition: transform 0.2s ease;">
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                    <span style="font-size: 13px; font-weight: bold; color: #4b5563;">{job['company']}</span>
-                    <span style="font-size: 11px; font-weight: 500; background-color: {site_tag_color}; color: {site_text_color}; padding: 2px 8px; border-radius: 6px;">{job['site_name']}</span>
+                    <div style="display: flex; align-items: center;">
+                        <span style="font-size: 13px; font-weight: bold; color: #4b5563;">{job['company']}</span>
+                        <span style="font-size: 11px; font-weight: 600; background-color: #f3f4f6; color: #4b5563; padding: 2px 6px; border-radius: 4px; margin-left: 8px;">{job['career']}</span>
+                    </div>
+                    <div>{sites_html}</div>
                 </div>
                 <h3 style="font-size: 16px; font-weight: 700; color: #1f2937; margin: 0 0 10px 0; line-height: 1.4;">{job['title']}</h3>
                 <div style="margin-bottom: 12px;">{keywords_html}</div>
                 <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #f3f4f6; padding-top: 12px; margin-top: 12px;">
                     <span style="font-size: 12px; color: #9ca3af;">등록일: {job['date']}</span>
-                    <a href="{job['link']}" target="_blank" style="display: inline-block; background-color: #4f46e5; color: #ffffff; text-decoration: none; font-size: 12px; font-weight: 600; padding: 6px 14px; border-radius: 6px; box-shadow: 0 2px 4px rgba(79, 70, 229, 0.2);">공고 상세보기</a>
+                    <div style="display: flex; align-items: center;">
+                        {buttons_html}
+                    </div>
                 </div>
             </div>
             """
