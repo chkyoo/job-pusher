@@ -2,8 +2,8 @@ name: Job Scraper & Notifier
 
 on:
   schedule:
-    # Runs daily at 00:00 UTC (09:00 KST)
-    - cron: '0 0 * * *'
+    # Runs daily at 22:00 UTC (07:00 KST)
+    - cron: '0 22 * * *'
   workflow_dispatch: # Allows manual trigger from GitHub UI
 
 env:

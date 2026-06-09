@@ -25,6 +25,44 @@ class JobNotifier:
     def build_html_content(self, jobs):
         date_str = datetime.now().strftime("%Y년 %m월 %d일")
         
+        if not jobs:
+            html_template = f"""
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>일자리 정보 푸시 알림</title>
+            </head>
+            <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f9fafb; margin: 0; padding: 0;">
+                <div style="max-width: 600px; margin: 0 auto; padding: 20px;">
+                    <!-- Header -->
+                    <div style="background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%); border-radius: 16px 16px 0 0; padding: 35px 25px; text-align: center; color: #ffffff; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);">
+                        <h1 style="font-size: 24px; font-weight: 800; margin: 0 0 8px 0; letter-spacing: -0.5px;">📋 맞춤형 채용 정보 알림</h1>
+                        <p style="font-size: 14px; margin: 0; opacity: 0.9; font-weight: 500;">{date_str} 기준 안내</p>
+                    </div>
+                    
+                    <!-- Content Area -->
+                    <div style="background-color: #ffffff; border-radius: 0 0 16px 16px; padding: 40px 20px; border: 1px solid #e5e7eb; border-top: none; text-align: center;">
+                        <div style="font-size: 48px; margin-bottom: 20px;">🔍</div>
+                        <h3 style="font-size: 18px; font-weight: 700; color: #374151; margin: 0 0 10px 0;">오늘 새롭게 등록된 맞춤형 채용 공고가 없습니다.</h3>
+                        <p style="font-size: 14px; color: #6b7280; margin: 0 0 20px 0; line-height: 1.6;">
+                            설정하신 조건(시니어/임원급 및 관련 키워드)에 맞는 새로운 채용 공고가 수집되지 않았습니다.<br>
+                            새로운 공고가 등록되면 신속하게 이메일로 안내해 드리겠습니다.
+                        </p>
+                        
+                        <!-- Footer Info -->
+                        <div style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #f3f4f6; color: #9ca3af; font-size: 11px; line-height: 1.6;">
+                            본 메일은 설정된 키워드(OLED, 디스플레이 등)를 기반으로 자동 발송된 채용 정보 알림입니다.<br>
+                            GitHub Actions 스케줄러에 의해 매일 1회 실행됩니다.
+                        </div>
+                    </div>
+                </div>
+            </body>
+            </html>
+            """
+            return html_template
+
         # Build job cards HTML
         cards_html = ""
         for job in jobs:
@@ -39,8 +77,18 @@ class JobNotifier:
             site_badges = []
             for s in job["site_name"].split(","):
                 s = s.strip()
-                site_tag_color = "#e0f2fe" if "사람인" in s else "#fef3c7"
-                site_text_color = "#0369a1" if "사람인" in s else "#b45309"
+                if "사람인" in s:
+                    site_tag_color = "#e0f2fe"
+                    site_text_color = "#0369a1"
+                elif "잡코리아" in s:
+                    site_tag_color = "#fef3c7"
+                    site_text_color = "#b45309"
+                elif "인크루트" in s:
+                    site_tag_color = "#ffe4e6"
+                    site_text_color = "#9f1239"
+                else:
+                    site_tag_color = "#f3e8ff"
+                    site_text_color = "#6b21a8"
                 site_badges.append(f'<span style="font-size: 11px; font-weight: 500; background-color: {site_tag_color}; color: {site_text_color}; padding: 2px 8px; border-radius: 6px; margin-left: 4px;">{s}</span>')
             sites_html = "".join(site_badges)
 
@@ -105,17 +153,16 @@ class JobNotifier:
         return html_template
 
     def send_notification(self, jobs):
-        if not jobs:
-            print("No new jobs to notify.")
-            return False
-
         if not self.is_configured():
             print("SMTP configuration is incomplete. Skip sending email.")
             print("Please set SMTP_SERVER, SMTP_PORT, SMTP_USER, SMTP_PASSWORD, and RECIPIENT_EMAIL environment variables.")
             return False
 
         date_str = datetime.now().strftime("%Y-%m-%d")
-        subject = f"[일자리 정보] {date_str} 신규 채용 공고 안내 ({len(jobs)}건)"
+        if jobs:
+            subject = f"[일자리 정보] {date_str} 신규 채용 공고 안내 ({len(jobs)}건)"
+        else:
+            subject = f"[일자리 정보] {date_str} 새로운 맞춤 채용 공고가 없습니다"
         html_content = self.build_html_content(jobs)
 
         msg = MIMEMultipart("alternative")
@@ -142,6 +189,8 @@ class JobNotifier:
         except Exception as e:
             print(f"Failed to send email: {e}")
             return False
+
+
 
 if __name__ == "__main__":
     # Test layout without sending

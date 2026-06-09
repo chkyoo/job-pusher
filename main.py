@@ -180,10 +180,10 @@ def main():
             
     print(f"Filtered down to {len(new_jobs)} NEW jobs.")
     
-    # 7. Notify if there are new jobs
-    if new_jobs:
-        notifier = JobNotifier()
-        if notifier.is_configured():
+    # 7. Notify (now always sending email if SMTP is configured)
+    notifier = JobNotifier()
+    if notifier.is_configured():
+        if new_jobs:
             print(f"\nSending notification for {len(new_jobs)} new jobs...")
             success = notifier.send_notification(new_jobs)
             if success:
@@ -198,6 +198,14 @@ def main():
             else:
                 print("Notification failed. State has NOT been updated.")
         else:
+            print("\nNo new job listings found. Sending 'no new jobs' status notification...")
+            success = notifier.send_notification([])
+            if success:
+                print("'No new jobs' notification sent successfully.")
+            else:
+                print("Failed to send 'no new jobs' notification.")
+    else:
+        if new_jobs:
             print("\nSMTP is not configured. Print new job listings to console instead:")
             for idx, job in enumerate(new_jobs, 1):
                 print(f"[{idx}] {job['company']} - {job['title']}")
@@ -208,8 +216,8 @@ def main():
                 else:
                     print(f"    Link: {job['link']}")
                 print(f"    Date: {job['date']} | Career: {job['career']} | Site: {job['site_name']} | Keywords: {job['keyword']}")
-    else:
-        print("\nNo new job listings found. Notification skipped.")
+        else:
+            print("\nNo new job listings found and SMTP is not configured. Notification skipped.")
         
     print("\n=== Process Completed ===")
 

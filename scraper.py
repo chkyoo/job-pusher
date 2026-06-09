@@ -36,7 +36,10 @@ class JobScraper:
                 print(f"[{site['name']}] Error: HTTP status code {response.status_code}")
                 return jobs
 
-            response.encoding = 'utf-8'  # Force UTF-8 encoding for Korean sites
+            if "인크루트" in site["name"] or "Incruit" in site["name"]:
+                response.encoding = 'euc-kr'
+            else:
+                response.encoding = 'utf-8'  # Force UTF-8 encoding for Korean sites
             soup = BeautifulSoup(response.text, "html.parser")
             items = soup.select(site["item_selector"])
             print(f"[{site['name']}] Found {len(items)} items matching selector '{site['item_selector']}'")
@@ -103,6 +106,12 @@ class JobScraper:
                             if not any(x in text for x in ["스크랩", "관심기업", "My"]):
                                 career = text
                                 break
+                elif "인크루트" in site["name"] or "Incruit" in site["name"]:
+                    for span in item.select("div.cell_mid div.cl_md span"):
+                        text = span.get_text(strip=True)
+                        if "경력" in text or "신입" in text:
+                            career = text
+                            break
 
                 # Filter out jobs that don't match any keyword in the title or company to ensure relevancy
                 title_lower = title.lower()

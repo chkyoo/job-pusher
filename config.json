@@ -33,6 +33,15 @@
       "company_selector": "span[class*=\"mb-5\"] a",
       "date_selector": "span.date, .date",
       "base_url": "https://www.jobkorea.co.kr"
+    },
+    {
+      "name": "인크루트 (Incruit)",
+      "search_url": "https://search.incruit.com/list/search.asp?col=job&kw={keyword}",
+      "item_selector": "li.c_col",
+      "title_selector": "div.cell_mid div.cl_top a",
+      "company_selector": "a.cpname",
+      "date_selector": "div.cell_last div.cl_btm span",
+      "base_url": "https://job.incruit.com"
     }
   ]
 }
