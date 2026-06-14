@@ -1,0 +1,41 @@
+name: Exclude Job
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  exclude:
+    if: startsWith(github.event.issue.title, 'exclude:')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run Exclude Script
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+        run: |
+          python exclude_job.py
+
+      - name: Commit & Push Changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add sent_jobs.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Exclude job from list [skip ci]" && git push)
+
+      - name: Close Issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue close ${{ github.event.issue.number }} --comment "Job successfully excluded from the active list. It will no longer appear in future emails."

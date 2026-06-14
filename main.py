@@ -284,19 +284,21 @@ def main():
     
     # 8. Notify
     notifier = JobNotifier()
+    non_excluded_jobs = [job for job in filtered_active_jobs if not job.get("excluded")]
+    
     if notifier.is_configured():
         # Always send the email if there are active jobs
         # If no active jobs, send the status report that there are no matching jobs
-        print(f"\nSending notification for {len(filtered_active_jobs)} active jobs...")
-        success = notifier.send_notification(filtered_active_jobs)
+        print(f"\nSending notification for {len(non_excluded_jobs)} active jobs (excluded: {len(filtered_active_jobs) - len(non_excluded_jobs)})...")
+        success = notifier.send_notification(non_excluded_jobs)
         if success:
             print("Notification sent successfully.")
         else:
             print("Notification failed.")
     else:
-        if filtered_active_jobs:
-            print("\nSMTP is not configured. Print active job listings to console instead:")
-            for idx, job in enumerate(filtered_active_jobs, 1):
+        if non_excluded_jobs:
+            print(f"\nSMTP is not configured. Print active job listings to console instead (excluding {len(filtered_active_jobs) - len(non_excluded_jobs)} excluded jobs):")
+            for idx, job in enumerate(non_excluded_jobs, 1):
                 new_str = "[NEW] " if job.get("is_new") else ""
                 print(f"[{idx}] {new_str}{job['company']} - {job['title']}")
                 if "links" in job and len(job["links"]) > 1:
@@ -307,7 +309,7 @@ def main():
                     print(f"    Link: {job['link']}")
                 print(f"    Date: {job['date']} | Career: {job['career']} | Site: {job['site_name']} | Keywords: {job['keyword']}")
         else:
-            print("\nNo active job listings found and SMTP is not configured. Notification skipped.")
+            print("\nNo active job listings (or all were excluded) and SMTP is not configured. Notification skipped.")
         
     print("\n=== Process Completed ===")
 

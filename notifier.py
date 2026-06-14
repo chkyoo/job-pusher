@@ -1,5 +1,7 @@
 import os
 import smtplib
+import json
+import urllib.parse
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from datetime import datetime
@@ -18,6 +20,16 @@ class JobNotifier:
         self.smtp_user = os.getenv("SMTP_USER")
         self.smtp_password = os.getenv("SMTP_PASSWORD")
         self.recipient_email = os.getenv("RECIPIENT_EMAIL")
+
+        # Load GitHub repo from config.json
+        self.github_repo = "chkyoo/job-pusher"
+        if os.path.exists("config.json"):
+            try:
+                with open("config.json", "r", encoding="utf-8") as f:
+                    config = json.load(f)
+                    self.github_repo = config.get("github_repo", "chkyoo/job-pusher")
+            except Exception as e:
+                print(f"Warning: Could not read github_repo from config.json: {e}")
 
     def is_configured(self):
         return bool(self.smtp_user and self.smtp_password and self.recipient_email)
@@ -92,13 +104,22 @@ class JobNotifier:
                 site_badges.append(f'<span style="font-size: 11px; font-weight: 500; background-color: {site_tag_color}; color: {site_text_color}; padding: 2px 8px; border-radius: 6px; margin-left: 4px;">{s}</span>')
             sites_html = "".join(site_badges)
 
-            # Build action buttons (multiple buttons if job was found on multiple sites)
+            # Build action & exclude buttons
+            exclude_title = f"exclude:{job['id']}"
+            exclude_body = f"아래 공고를 향후 메일 수신 목록에서 제외합니다.\n\n- 회사명: {job['company']}\n- 공고명: {job['title']}\n- 링크: {job['link']}\n\n[Submit new issue] 버튼을 누르시면 이 공고가 다음 메일부터 제외됩니다."
+            encoded_title = urllib.parse.quote(exclude_title)
+            encoded_body = urllib.parse.quote(exclude_body)
+            exclude_link = f"https://github.com/{self.github_repo}/issues/new?title={encoded_title}&body={encoded_body}"
+            exclude_button_html = f'<a href="{exclude_link}" target="_blank" style="display: inline-block; background-color: #dc2626; color: #ffffff; text-decoration: none; font-size: 11px; font-weight: 600; padding: 6px 12px; border-radius: 6px; margin-left: 6px; box-shadow: 0 1px 2px rgba(220, 38, 38, 0.15);">❌ 제외</a>'
+
             buttons_html = ""
             if "links" in job and len(job["links"]) > 1:
                 for site_name, link in job["links"].items():
                     buttons_html += f'<a href="{link}" target="_blank" style="display: inline-block; background-color: #4f46e5; color: #ffffff; text-decoration: none; font-size: 11px; font-weight: 600; padding: 6px 12px; border-radius: 6px; margin-left: 6px; box-shadow: 0 1px 2px rgba(79, 70, 229, 0.15);">{site_name}</a>'
+                buttons_html += exclude_button_html
             else:
                 buttons_html = f'<a href="{job["link"]}" target="_blank" style="display: inline-block; background-color: #4f46e5; color: #ffffff; text-decoration: none; font-size: 12px; font-weight: 600; padding: 6px 14px; border-radius: 6px; box-shadow: 0 2px 4px rgba(79, 70, 229, 0.2);">공고 상세보기</a>'
+                buttons_html += exclude_button_html
 
             # Build NEW badge
             new_badge_html = ""
