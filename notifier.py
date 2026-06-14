@@ -106,7 +106,7 @@ class JobNotifier:
 
             # Build action & exclude buttons
             exclude_title = f"exclude:{job['id']}"
-            exclude_body = f"아래 공고를 향후 메일 수신 목록에서 제외합니다.\n\n- 회사명: {job['company']}\n- 공고명: {job['title']}\n- 링크: {job['link']}\n\n[Submit new issue] 버튼을 누르시면 이 공고가 다음 메일부터 제외됩니다."
+            exclude_body = f"아래 공고를 향후 메일 수신 목록에서 제외합니다.\n\n- 회사명: {job['company']}\n- 공고명: {job['title']}\n- 링크: {job['link']}\n\n하단의 초록색 [Create] 버튼을 누르시면 이 공고가 다음 메일부터 제외됩니다."
             encoded_title = urllib.parse.quote(exclude_title)
             encoded_body = urllib.parse.quote(exclude_body)
             exclude_link = f"https://github.com/{self.github_repo}/issues/new?title={encoded_title}&body={encoded_body}"
