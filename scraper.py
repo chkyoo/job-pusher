@@ -24,6 +24,26 @@ class JobScraper:
             print(f"Error loading config file {self.config_path}: {e}")
             raise
 
+    def get_clean_id(self, link, site_name):
+        import urllib.parse as urlparse
+        try:
+            parsed = urlparse.urlparse(link)
+            base_url = f"{parsed.scheme}://{parsed.netloc}{parsed.path}"
+            params = urlparse.parse_qs(parsed.query)
+            
+            if "사람인" in site_name or "Saramin" in site_name:
+                rec_idx = params.get("rec_idx", [""])[0]
+                if rec_idx:
+                    return f"{base_url}?rec_idx={rec_idx}"
+            elif "인크루트" in site_name or "Incruit" in site_name:
+                job = params.get("job", [""])[0]
+                if job:
+                    return f"{base_url}?job={job}"
+            return base_url
+        except Exception as e:
+            print(f"Error parsing clean ID for {link}: {e}")
+            return link.split("?")[0]
+
     def scrape_site_keyword(self, site, keyword):
         jobs = []
         encoded_keyword = urllib.parse.quote(keyword)
@@ -125,7 +145,7 @@ class JobScraper:
                 kw_match_str = ", ".join(matched_keywords) if matched_keywords else keyword
 
                 jobs.append({
-                    "id": link.split("?")[0],  # Use base URL as unique ID to avoid parameter changes
+                    "id": self.get_clean_id(link, site["name"]),
                     "title": title,
                     "company": company,
                     "link": link,

@@ -100,10 +100,29 @@ class JobNotifier:
             else:
                 buttons_html = f'<a href="{job["link"]}" target="_blank" style="display: inline-block; background-color: #4f46e5; color: #ffffff; text-decoration: none; font-size: 12px; font-weight: 600; padding: 6px 14px; border-radius: 6px; box-shadow: 0 2px 4px rgba(79, 70, 229, 0.2);">공고 상세보기</a>'
 
+            # Build NEW badge
+            new_badge_html = ""
+            if job.get("is_new"):
+                new_badge_html = '<span style="display: inline-block; background-color: #ef4444; color: #ffffff; font-size: 10px; font-weight: bold; padding: 2px 6px; margin-right: 6px; border-radius: 4px; vertical-align: middle;">NEW</span>'
+
+            # Determine deadline display style
+            days_left = job.get("days_left")
+            dday_html = ""
+            if days_left is not None:
+                if days_left == 0:
+                    dday_html = '<span style="color: #ef4444; font-weight: bold; margin-left: 8px;">[오늘 마감]</span>'
+                elif days_left > 0 and days_left <= 3:
+                    dday_html = f'<span style="color: #f97316; font-weight: bold; margin-left: 8px;">[마감 임박 D-{days_left}]</span>'
+                elif days_left > 0:
+                    dday_html = f'<span style="color: #3b82f6; font-weight: 500; margin-left: 8px;">[D-{days_left}]</span>'
+            else:
+                dday_html = '<span style="color: #6b7280; font-weight: 500; margin-left: 8px;">[상시/채용시마감]</span>'
+
             cards_html += f"""
             <div style="background-color: #ffffff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px; margin-bottom: 15px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02); transition: transform 0.2s ease;">
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
                     <div style="display: flex; align-items: center;">
+                        {new_badge_html}
                         <span style="font-size: 13px; font-weight: bold; color: #4b5563;">{job['company']}</span>
                         <span style="font-size: 11px; font-weight: 600; background-color: #f3f4f6; color: #4b5563; padding: 2px 6px; border-radius: 4px; margin-left: 8px;">{job['career']}</span>
                     </div>
@@ -112,7 +131,7 @@ class JobNotifier:
                 <h3 style="font-size: 16px; font-weight: 700; color: #1f2937; margin: 0 0 10px 0; line-height: 1.4;">{job['title']}</h3>
                 <div style="margin-bottom: 12px;">{keywords_html}</div>
                 <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #f3f4f6; padding-top: 12px; margin-top: 12px;">
-                    <span style="font-size: 12px; color: #9ca3af;">등록일: {job['date']}</span>
+                    <span style="font-size: 12px; color: #4b5563;">⏱ 마감일: <strong>{job['date']}</strong> {dday_html}</span>
                     <div style="display: flex; align-items: center;">
                         {buttons_html}
                     </div>
@@ -132,8 +151,8 @@ class JobNotifier:
             <div style="max-width: 600px; margin: 0 auto; padding: 20px;">
                 <!-- Header -->
                 <div style="background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%); border-radius: 16px 16px 0 0; padding: 35px 25px; text-align: center; color: #ffffff; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);">
-                    <h1 style="font-size: 24px; font-weight: 800; margin: 0 0 8px 0; letter-spacing: -0.5px;">📋 맞춤형 신규 채용 정보</h1>
-                    <p style="font-size: 14px; margin: 0; opacity: 0.9; font-weight: 500;">{date_str} 기준 새롭게 등록된 공고 ({len(jobs)}건)</p>
+                    <h1 style="font-size: 24px; font-weight: 800; margin: 0 0 8px 0; letter-spacing: -0.5px;">📋 맞춤형 채용 정보 알림</h1>
+                    <p style="font-size: 14px; margin: 0; opacity: 0.9; font-weight: 500;">{date_str} 기준 활성 채용 공고 (총 {len(jobs)}건)</p>
                 </div>
                 
                 <!-- Content Area -->
@@ -160,7 +179,7 @@ class JobNotifier:
 
         date_str = datetime.now().strftime("%Y-%m-%d")
         if jobs:
-            subject = f"[일자리 정보] {date_str} 신규 채용 공고 안내 ({len(jobs)}건)"
+            subject = f"[일자리 정보] {date_str} 맞춤 채용 공고 안내 (총 {len(jobs)}건)"
         else:
             subject = f"[일자리 정보] {date_str} 새로운 맞춤 채용 공고가 없습니다"
         html_content = self.build_html_content(jobs)
