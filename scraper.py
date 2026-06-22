@@ -1,6 +1,7 @@
 import json
 import time
 import urllib.parse
+import re
 import requests
 from bs4 import BeautifulSoup
 
@@ -122,10 +123,15 @@ class JobScraper:
                 elif "잡코리아" in site["name"] or "JobKorea" in site["name"]:
                     for span in item.find_all("span"):
                         text = span.get_text(strip=True)
-                        if "경력" in text or "신입" in text:
-                            if not any(x in text for x in ["스크랩", "관심기업", "My"]):
-                                career = text
-                                break
+                        # Career info is typically short (e.g. "경력 5~10년")
+                        if len(text) > 20:
+                            continue
+                        if any(x in text for x in ["스크랩", "관심기업", "My", "지원", "채용공고"]):
+                            continue
+                        # Match text starting with career-related patterns
+                        if re.match(r'^(경력|신입)', text):
+                            career = text
+                            break
                 elif "인크루트" in site["name"] or "Incruit" in site["name"]:
                     for span in item.select("div.cell_mid div.cl_md span"):
                         text = span.get_text(strip=True)
@@ -133,7 +139,7 @@ class JobScraper:
                             career = text
                             break
 
-                # Filter out jobs that don't match any keyword in the title or company to ensure relevancy
+                # Only keep jobs where at least one configured keyword appears in title or company
                 title_lower = title.lower()
                 company_lower = company.lower()
                 matched_keywords = [
@@ -141,8 +147,11 @@ class JobScraper:
                     if kw.lower() in title_lower or kw.lower() in company_lower
                 ]
 
-                # We will keep all results but flag the matched keywords
-                kw_match_str = ", ".join(matched_keywords) if matched_keywords else keyword
+                if not matched_keywords:
+                    # No configured keyword found in title or company - skip irrelevant result
+                    continue
+
+                kw_match_str = ", ".join(matched_keywords)
 
                 jobs.append({
                     "id": self.get_clean_id(link, site["name"]),

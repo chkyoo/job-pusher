@@ -2,6 +2,27 @@ import sys
 import json
 import os
 
+EXCLUDED_IDS_FILE = "excluded_ids.json"
+
+def load_excluded_ids():
+    """Load permanently excluded job IDs from separate file."""
+    if os.path.exists(EXCLUDED_IDS_FILE):
+        try:
+            with open(EXCLUDED_IDS_FILE, "r", encoding="utf-8") as f:
+                return set(json.load(f))
+        except Exception:
+            pass
+    return set()
+
+def save_excluded_ids(ids_set):
+    """Save permanently excluded job IDs to separate file."""
+    try:
+        with open(EXCLUDED_IDS_FILE, "w", encoding="utf-8") as f:
+            json.dump(sorted(list(ids_set)), f, ensure_ascii=False, indent=2)
+        print(f"Updated {EXCLUDED_IDS_FILE} with {len(ids_set)} excluded IDs.")
+    except Exception as e:
+        print(f"Error saving {EXCLUDED_IDS_FILE}: {e}")
+
 def main():
     issue_title = os.environ.get("ISSUE_TITLE")
     if not issue_title:
@@ -65,6 +86,11 @@ def main():
         print("Saved updated sent_jobs.json.")
     except Exception as e:
         print(f"Error saving state file: {e}")
+
+    # Also save to permanent excluded IDs file
+    excluded_ids = load_excluded_ids()
+    excluded_ids.add(job_id)
+    save_excluded_ids(excluded_ids)
 
 if __name__ == "__main__":
     main()

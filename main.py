@@ -15,6 +15,7 @@ if sys.platform.startswith("win"):
 import re
 
 STATE_FILE = "sent_jobs.json"
+EXCLUDED_IDS_FILE = "excluded_ids.json"
 
 def normalize_company_name(name):
     # Remove common corporate suffixes and prefixes
@@ -33,7 +34,7 @@ def is_junior_or_mid_level(career_text, title):
     title_lower = title.lower()
     career_clean = career_text.replace(" ", "")
     
-    # 1. Blacklist title keywords (junior, mid-level, staff, team members, up to GM/부장)
+    # 1. Blacklist title keywords (junior/mid-level positions)
     blacklist_title = [
         "신입", "인턴", "사원", "주임", "대리", "과장", "차장", "부장",
         "팀원", "담당자", "실무자", "어소시에이트",
@@ -41,25 +42,40 @@ def is_junior_or_mid_level(career_text, title):
     ]
     for kw in blacklist_title:
         if kw in title_lower:
-            # Exception: e.g., "임원/부장급 이상" or "부장급 이상" which explicitly mentions "이상" (above) or "임원" (executive)
-            if kw == "부장" and ("이상" in title_lower or "임원" in title_lower):
+            # Exception: "부장/차장급 이상" or "임원" context
+            if kw in ("부장", "차장") and ("이상" in title_lower or "임원" in title_lower):
                 continue
             return True
 
-    # 2. Check career requirement text
-    # Filter out entry-level, no-experience-needed, or open to anyone
+    # 2. Reject entry-level career text
     if any(x in career_clean for x in ["신입", "무관", "초보"]):
         return True
-        
-    # Extract numbers (years of experience)
-    # e.g., "경력5년↑" -> 5; "경력10년↑" -> 10; "경력 3~5년" -> [3, 5]
+
+    # 3. Reject "X년 이하/↓" (means up to X years, includes juniors)
+    if "↓" in career_clean or "이하" in career_clean:
+        return True
+
+    # 4. Extract years - use min(numbers) to check the LOWER bound of experience
     numbers = [int(n) for n in re.findall(r'\d+', career_clean)]
     if numbers:
-        max_years = max(numbers)
-        # Filter out if the required experience is less than 10 years
-        if max_years < 10:
+        min_years = min(numbers)
+        # Filter out if the minimum required experience is less than 10 years
+        if min_years < 10:
             return True
-            
+
+    # 5. If no years specified, require executive/senior keywords in title
+    if not numbers:
+        executive_keywords = [
+            "임원", "본부장", "부문장", "사업부장", "총괄", "그룹장",
+            "센터장", "연구소장", "공장장", "법인장",
+            "cto", "ceo", "cfo", "coo", "cmo", "cpo",
+            "이사", "상무", "전무", "부사장", "사장", "대표",
+            "팀장", "실장", "수석"
+        ]
+        has_executive = any(kw in title_lower for kw in executive_keywords)
+        if not has_executive:
+            return True  # No years AND no executive title → filter out
+
     return False
 
 def deduplicate_jobs(jobs):
@@ -125,6 +141,25 @@ def save_active_jobs(jobs_list):
         print(f"Updated state file: {STATE_FILE} saved with {len(jobs_list)} active job entries.")
     except Exception as e:
         print(f"Error saving state file {STATE_FILE}: {e}")
+
+def load_excluded_ids():
+    """Load permanently excluded job IDs from separate file."""
+    if os.path.exists(EXCLUDED_IDS_FILE):
+        try:
+            with open(EXCLUDED_IDS_FILE, "r", encoding="utf-8") as f:
+                return set(json.load(f))
+        except Exception:
+            pass
+    return set()
+
+def save_excluded_ids(ids_set):
+    """Save permanently excluded job IDs to separate file."""
+    try:
+        with open(EXCLUDED_IDS_FILE, "w", encoding="utf-8") as f:
+            json.dump(sorted(list(ids_set)), f, ensure_ascii=False, indent=2)
+        print(f"Updated {EXCLUDED_IDS_FILE} with {len(ids_set)} excluded IDs.")
+    except Exception as e:
+        print(f"Error saving {EXCLUDED_IDS_FILE}: {e}")
 
 def parse_deadline_date(date_text, current_year=2026):
     text = date_text.strip()
@@ -195,7 +230,16 @@ def main():
     # 5. Load existing active jobs
     existing_active_jobs = load_active_jobs()
     print(f"Loaded {len(existing_active_jobs)} existing active jobs from state.")
-    
+
+    # 5.5. Load permanently excluded job IDs and sync from existing data
+    excluded_ids = load_excluded_ids()
+    for job in existing_active_jobs:
+        if job.get("excluded"):
+            excluded_ids.add(job["id"])
+    if excluded_ids:
+        save_excluded_ids(excluded_ids)
+    print(f"Permanently excluded job IDs: {len(excluded_ids)}")
+
     # 6. Merge newly crawled senior jobs with existing active jobs
     today = datetime.date.today()
     today_str = today.strftime("%Y-%m-%d")
@@ -211,6 +255,10 @@ def main():
         
     for job in new_senior_jobs:
         job_id = job["id"]
+        # Skip permanently excluded jobs
+        if job_id in excluded_ids:
+            print(f"  [Permanently Excluded] {job['company']} - {job['title']}")
+            continue
         if job_id in active_jobs_dict:
             # Update info but keep first_seen and update keywords, links, etc.
             existing_job = active_jobs_dict[job_id]
@@ -284,7 +332,7 @@ def main():
     
     # 8. Notify
     notifier = JobNotifier()
-    non_excluded_jobs = [job for job in filtered_active_jobs if not job.get("excluded")]
+    non_excluded_jobs = [job for job in filtered_active_jobs if not job.get("excluded") and job["id"] not in excluded_ids]
     
     if notifier.is_configured():
         # Always send the email if there are active jobs
