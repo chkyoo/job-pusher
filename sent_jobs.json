@@ -666,6 +666,7 @@
     },
     "first_seen": "2026-06-21",
     "is_new": false,
-    "days_left": null
+    "days_left": null,
+    "excluded": true
   }
 ]
