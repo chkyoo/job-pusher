@@ -1,51 +1,19 @@
 [
   {
-    "id": "https://www.jobkorea.co.kr/Recruit/GI_Read/49454505",
-    "title": "[머크 코리아] Senior OLED Chemist (석사 이상, 유기합성, 10년이상)",
-    "company": "머크퍼포먼스머티리얼즈",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/49454505?Oem_Code=C1&logpath=1&stext=OLED&listno=17&sc=630",
-    "date": "상세 정보 참조",
-    "career": "경력10년↑",
-    "site_name": "잡코리아 (JobKorea)",
-    "keyword": "OLED",
-    "links": {
-      "잡코리아 (JobKorea)": "https://www.jobkorea.co.kr/Recruit/GI_Read/49454505?Oem_Code=C1&logpath=1&stext=OLED&listno=17&sc=630"
-    },
-    "first_seen": "2026-06-25",
-    "is_new": true,
-    "days_left": null
-  },
-  {
-    "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54283123",
-    "title": "[머크] SeniorOLEDChemist (유기합성, 석사, 10년 이상)",
-    "company": "머크퍼포먼스머티리얼즈(주)",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54283123&location=ts&searchword=OLED&searchType=search&paid_fl=n&search_uuid=68bd82ba-2a62-4438-b896-498c1b49c481",
-    "date": "채용시",
+    "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54296484",
+    "title": "반도체장비 전문기업 - 보세사",
+    "company": "(주)백그라운드",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54296484&location=ts&searchword=%EB%B0%98%EB%8F%84%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=ee712c30-e454-4ad7-9005-ea11e69c46cd",
+    "date": "~ 07/11(토)",
     "career": "경력10년↑",
     "site_name": "사람인 (Saramin)",
-    "keyword": "OLED",
-    "links": {
-      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54283123&location=ts&searchword=OLED&searchType=search&paid_fl=n&search_uuid=68bd82ba-2a62-4438-b896-498c1b49c481"
-    },
-    "first_seen": "2026-06-25",
-    "is_new": true,
-    "days_left": null
-  },
-  {
-    "id": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2605190001070",
-    "title": "반도체장비부품 생산부문 임원",
-    "company": "탑에이치알파트너즈",
-    "link": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2605190001070&src=etc*search",
-    "date": "채용시",
-    "career": "경력 20년↑",
-    "site_name": "인크루트 (Incruit)",
     "keyword": "반도체",
     "links": {
-      "인크루트 (Incruit)": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2605190001070&src=etc*search"
+      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54296484&location=ts&searchword=%EB%B0%98%EB%8F%84%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=ee712c30-e454-4ad7-9005-ea11e69c46cd"
     },
-    "first_seen": "2026-06-25",
+    "first_seen": "2026-06-26",
     "is_new": true,
-    "days_left": null
+    "days_left": 15
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54167424",
@@ -61,7 +29,7 @@
     },
     "first_seen": "2026-06-14",
     "is_new": false,
-    "days_left": 3,
+    "days_left": 2,
     "excluded": true
   },
   {
@@ -78,7 +46,7 @@
     },
     "first_seen": "2026-06-14",
     "is_new": false,
-    "days_left": 4,
+    "days_left": 3,
     "excluded": true
   },
   {
@@ -95,7 +63,7 @@
     },
     "first_seen": "2026-06-16",
     "is_new": false,
-    "days_left": 6,
+    "days_left": 5,
     "excluded": true
   },
   {
@@ -112,7 +80,7 @@
     },
     "first_seen": "2026-06-16",
     "is_new": false,
-    "days_left": 7,
+    "days_left": 6,
     "excluded": true
   },
   {
@@ -129,7 +97,7 @@
     },
     "first_seen": "2026-06-17",
     "is_new": false,
-    "days_left": 7,
+    "days_left": 6,
     "excluded": true
   },
   {
@@ -146,7 +114,7 @@
     },
     "first_seen": "2026-06-17",
     "is_new": false,
-    "days_left": 7,
+    "days_left": 6,
     "excluded": true
   },
   {
@@ -164,7 +132,7 @@
     },
     "first_seen": "2026-06-19",
     "is_new": false,
-    "days_left": 9,
+    "days_left": 8,
     "excluded": true
   },
   {
@@ -181,7 +149,7 @@
     },
     "first_seen": "2026-06-20",
     "is_new": false,
-    "days_left": 10,
+    "days_left": 9,
     "excluded": true
   },
   {
@@ -198,7 +166,7 @@
     },
     "first_seen": "2026-06-21",
     "is_new": false,
-    "days_left": 11,
+    "days_left": 10,
     "excluded": true
   },
   {
@@ -215,7 +183,7 @@
     },
     "first_seen": "2026-06-21",
     "is_new": false,
-    "days_left": 11,
+    "days_left": 10,
     "excluded": true
   },
   {
@@ -232,7 +200,7 @@
     },
     "first_seen": "2026-06-22",
     "is_new": false,
-    "days_left": 12,
+    "days_left": 11,
     "excluded": true
   },
   {
@@ -249,7 +217,7 @@
     },
     "first_seen": "2026-06-22",
     "is_new": false,
-    "days_left": 12,
+    "days_left": 11,
     "excluded": true
   },
   {
@@ -266,7 +234,7 @@
     },
     "first_seen": "2026-06-22",
     "is_new": false,
-    "days_left": 12,
+    "days_left": 11,
     "excluded": true
   },
   {
@@ -283,7 +251,7 @@
     },
     "first_seen": "2026-06-23",
     "is_new": false,
-    "days_left": 13
+    "days_left": 12
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54252531",
@@ -299,7 +267,7 @@
     },
     "first_seen": "2026-06-22",
     "is_new": false,
-    "days_left": 13,
+    "days_left": 12,
     "excluded": true
   },
   {
@@ -316,7 +284,7 @@
     },
     "first_seen": "2026-06-24",
     "is_new": false,
-    "days_left": 14
+    "days_left": 13
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54273539",
@@ -332,7 +300,7 @@
     },
     "first_seen": "2026-06-24",
     "is_new": false,
-    "days_left": 14
+    "days_left": 13
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54273558",
@@ -348,7 +316,7 @@
     },
     "first_seen": "2026-06-24",
     "is_new": false,
-    "days_left": 14
+    "days_left": 13
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54273556",
@@ -364,7 +332,7 @@
     },
     "first_seen": "2026-06-24",
     "is_new": false,
-    "days_left": 14
+    "days_left": 13
   },
   {
     "id": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2606100004882",
@@ -380,7 +348,7 @@
     },
     "first_seen": "2026-06-14",
     "is_new": false,
-    "days_left": 19
+    "days_left": 18
   },
   {
     "id": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2606160002440",
@@ -396,7 +364,7 @@
     },
     "first_seen": "2026-06-22",
     "is_new": false,
-    "days_left": 21,
+    "days_left": 20,
     "excluded": true
   },
   {
@@ -413,7 +381,7 @@
     },
     "first_seen": "2026-06-18",
     "is_new": false,
-    "days_left": 23,
+    "days_left": 22,
     "excluded": true
   },
   {
@@ -430,7 +398,7 @@
     },
     "first_seen": "2026-06-19",
     "is_new": false,
-    "days_left": 24,
+    "days_left": 23,
     "excluded": true
   },
   {
@@ -447,7 +415,7 @@
     },
     "first_seen": "2026-06-22",
     "is_new": false,
-    "days_left": 27
+    "days_left": 26
   },
   {
     "id": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2606220001242",
@@ -463,7 +431,7 @@
     },
     "first_seen": "2026-06-22",
     "is_new": false,
-    "days_left": 27,
+    "days_left": 26,
     "excluded": true
   },
   {
@@ -480,7 +448,7 @@
     },
     "first_seen": "2026-06-22",
     "is_new": false,
-    "days_left": 27,
+    "days_left": 26,
     "excluded": true
   },
   {
@@ -497,7 +465,7 @@
     },
     "first_seen": "2026-06-23",
     "is_new": false,
-    "days_left": 28
+    "days_left": 27
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54261183",
@@ -513,7 +481,7 @@
     },
     "first_seen": "2026-06-23",
     "is_new": false,
-    "days_left": 28
+    "days_left": 27
   },
   {
     "id": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2605290000940",
@@ -529,7 +497,7 @@
     },
     "first_seen": "2026-06-14",
     "is_new": false,
-    "days_left": 33
+    "days_left": 32
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54094052",
@@ -599,6 +567,22 @@
     "excluded": true
   },
   {
+    "id": "https://www.jobkorea.co.kr/Recruit/GI_Read/49454505",
+    "title": "[머크 코리아] Senior OLED Chemist (석사 이상, 유기합성, 10년이상)",
+    "company": "머크퍼포먼스머티리얼즈",
+    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/49454505?Oem_Code=C1&logpath=1&stext=OLED&listno=14&sc=630",
+    "date": "상세 정보 참조",
+    "career": "경력10년↑",
+    "site_name": "잡코리아 (JobKorea)",
+    "keyword": "OLED",
+    "links": {
+      "잡코리아 (JobKorea)": "https://www.jobkorea.co.kr/Recruit/GI_Read/49454505?Oem_Code=C1&logpath=1&stext=OLED&listno=14&sc=630"
+    },
+    "first_seen": "2026-06-25",
+    "is_new": false,
+    "days_left": null
+  },
+  {
     "id": "https://www.jobkorea.co.kr/Recruit/GI_Read/49354401",
     "title": "[머크 코리아] Senior OLED Chemist (석사 이상, 유기합성, 10년이상)",
     "company": "머크퍼포먼스머티리얼즈",
@@ -614,6 +598,22 @@
     "is_new": false,
     "days_left": null,
     "excluded": true
+  },
+  {
+    "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54283123",
+    "title": "[머크] SeniorOLEDChemist (유기합성, 석사, 10년 이상)",
+    "company": "머크퍼포먼스머티리얼즈(주)",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54283123&location=ts&searchword=OLED&searchType=search&paid_fl=n&search_uuid=3e572ffe-7cbf-41a6-98a6-aed90028f45b",
+    "date": "채용시",
+    "career": "경력10년↑",
+    "site_name": "사람인 (Saramin)",
+    "keyword": "OLED",
+    "links": {
+      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54283123&location=ts&searchword=OLED&searchType=search&paid_fl=n&search_uuid=3e572ffe-7cbf-41a6-98a6-aed90028f45b"
+    },
+    "first_seen": "2026-06-25",
+    "is_new": false,
+    "days_left": null
   },
   {
     "id": "https://www.jobkorea.co.kr/Recruit/GI_Read/49344557",
@@ -831,6 +831,22 @@
     "is_new": false,
     "days_left": null,
     "excluded": true
+  },
+  {
+    "id": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2605190001070",
+    "title": "반도체장비부품 생산부문 임원",
+    "company": "탑에이치알파트너즈",
+    "link": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2605190001070&src=etc*search",
+    "date": "채용시",
+    "career": "경력 20년↑",
+    "site_name": "인크루트 (Incruit)",
+    "keyword": "반도체",
+    "links": {
+      "인크루트 (Incruit)": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2605190001070&src=etc*search"
+    },
+    "first_seen": "2026-06-25",
+    "is_new": false,
+    "days_left": null
   },
   {
     "id": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2606130000212",
