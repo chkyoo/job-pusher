@@ -674,7 +674,8 @@
     },
     "first_seen": "2026-07-03",
     "is_new": false,
-    "days_left": 28
+    "days_left": 28,
+    "excluded": true
   },
   {
     "id": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2607020004084",
