@@ -1,5 +1,69 @@
 [
   {
+    "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54453518",
+    "title": "코스닥 상장디스플레이, 이차전지 소재 전문 기업 - 미래전략",
+    "company": "(주)백그라운드",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54453518&location=ts&searchword=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=7358727d-b534-4443-b3d2-1ce2908365a6",
+    "date": "~ 07/28(화)",
+    "career": "경력 10~15년",
+    "site_name": "사람인 (Saramin)",
+    "keyword": "디스플레이",
+    "links": {
+      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54453518&location=ts&searchword=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=7358727d-b534-4443-b3d2-1ce2908365a6"
+    },
+    "first_seen": "2026-07-13",
+    "is_new": true,
+    "days_left": 15
+  },
+  {
+    "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54451954",
+    "title": "중견그룹디스플레이전문회사 해외영업전문가 모집",
+    "company": "(주)에이치알타운",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54451954&location=ts&searchword=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=7358727d-b534-4443-b3d2-1ce2908365a6",
+    "date": "~ 07/28(화)",
+    "career": "경력 15~20년",
+    "site_name": "사람인 (Saramin)",
+    "keyword": "디스플레이",
+    "links": {
+      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54451954&location=ts&searchword=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=7358727d-b534-4443-b3d2-1ce2908365a6"
+    },
+    "first_seen": "2026-07-13",
+    "is_new": true,
+    "days_left": 15
+  },
+  {
+    "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54452256",
+    "title": "디스플레이전략 마케팅 센터장 모집",
+    "company": "(주)피플렙",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54452256&location=ts&searchword=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=7358727d-b534-4443-b3d2-1ce2908365a6",
+    "date": "채용시",
+    "career": "경력15년↑",
+    "site_name": "사람인 (Saramin)",
+    "keyword": "디스플레이",
+    "links": {
+      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54452256&location=ts&searchword=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=7358727d-b534-4443-b3d2-1ce2908365a6"
+    },
+    "first_seen": "2026-07-13",
+    "is_new": true,
+    "days_left": null
+  },
+  {
+    "id": "https://www.jobkorea.co.kr/Recruit/GI_Read/49566970",
+    "title": "[머크 코리아] Senior OLED Chemist (석사 이상, 유기합성, 10년이상)",
+    "company": "머크퍼포먼스머티리얼즈",
+    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/49566970?Oem_Code=C1&logpath=1&stext=OLED&listno=16&sc=630",
+    "date": "상세 정보 참조",
+    "career": "경력10년↑",
+    "site_name": "잡코리아 (JobKorea)",
+    "keyword": "OLED",
+    "links": {
+      "잡코리아 (JobKorea)": "https://www.jobkorea.co.kr/Recruit/GI_Read/49566970?Oem_Code=C1&logpath=1&stext=OLED&listno=16&sc=630"
+    },
+    "first_seen": "2026-07-13",
+    "is_new": true,
+    "days_left": null
+  },
+  {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54302838",
     "title": "유명 반도체 Physical Design 팀장급",
     "company": "라인서치",
@@ -13,7 +77,7 @@
     },
     "first_seen": "2026-06-28",
     "is_new": false,
-    "days_left": 1,
+    "days_left": 0,
     "excluded": true
   },
   {
@@ -30,7 +94,7 @@
     },
     "first_seen": "2026-06-28",
     "is_new": false,
-    "days_left": 1,
+    "days_left": 0,
     "excluded": true
   },
   {
@@ -47,24 +111,8 @@
     },
     "first_seen": "2026-06-28",
     "is_new": false,
-    "days_left": 1,
+    "days_left": 0,
     "excluded": true
-  },
-  {
-    "id": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2606100004882",
-    "title": "CTO 채용-디스플레이 소재기술기업",
-    "company": "(주)위드브레인",
-    "link": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2606100004882&src=etc*search",
-    "date": "~07.14 (화)",
-    "career": "경력 10년↑",
-    "site_name": "인크루트 (Incruit)",
-    "keyword": "디스플레이",
-    "links": {
-      "인크루트 (Incruit)": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2606100004882&src=etc*search"
-    },
-    "first_seen": "2026-06-14",
-    "is_new": false,
-    "days_left": 2
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54314885",
@@ -80,7 +128,7 @@
     },
     "first_seen": "2026-06-29",
     "is_new": false,
-    "days_left": 2,
+    "days_left": 1,
     "excluded": true
   },
   {
@@ -97,7 +145,7 @@
     },
     "first_seen": "2026-06-30",
     "is_new": false,
-    "days_left": 3,
+    "days_left": 2,
     "excluded": true
   },
   {
@@ -114,7 +162,7 @@
     },
     "first_seen": "2026-06-30",
     "is_new": false,
-    "days_left": 4,
+    "days_left": 3,
     "excluded": true
   },
   {
@@ -131,7 +179,7 @@
     },
     "first_seen": "2026-06-22",
     "is_new": false,
-    "days_left": 4,
+    "days_left": 3,
     "excluded": true
   },
   {
@@ -148,7 +196,7 @@
     },
     "first_seen": "2026-06-27",
     "is_new": false,
-    "days_left": 5,
+    "days_left": 4,
     "excluded": true
   },
   {
@@ -165,7 +213,7 @@
     },
     "first_seen": "2026-07-02",
     "is_new": false,
-    "days_left": 5,
+    "days_left": 4,
     "excluded": true
   },
   {
@@ -182,7 +230,7 @@
     },
     "first_seen": "2026-06-18",
     "is_new": false,
-    "days_left": 6,
+    "days_left": 5,
     "excluded": true
   },
   {
@@ -199,7 +247,7 @@
     },
     "first_seen": "2026-07-03",
     "is_new": false,
-    "days_left": 6,
+    "days_left": 5,
     "excluded": true
   },
   {
@@ -216,7 +264,7 @@
     },
     "first_seen": "2026-07-03",
     "is_new": false,
-    "days_left": 6,
+    "days_left": 5,
     "excluded": true
   },
   {
@@ -233,7 +281,7 @@
     },
     "first_seen": "2026-06-27",
     "is_new": false,
-    "days_left": 7,
+    "days_left": 6,
     "excluded": true
   },
   {
@@ -250,7 +298,7 @@
     },
     "first_seen": "2026-06-19",
     "is_new": false,
-    "days_left": 7,
+    "days_left": 6,
     "excluded": true
   },
   {
@@ -267,7 +315,7 @@
     },
     "first_seen": "2026-07-04",
     "is_new": false,
-    "days_left": 7,
+    "days_left": 6,
     "excluded": true
   },
   {
@@ -284,7 +332,7 @@
     },
     "first_seen": "2026-07-05",
     "is_new": false,
-    "days_left": 8,
+    "days_left": 7,
     "excluded": true
   },
   {
@@ -301,7 +349,7 @@
     },
     "first_seen": "2026-07-05",
     "is_new": false,
-    "days_left": 8,
+    "days_left": 7,
     "excluded": true
   },
   {
@@ -318,7 +366,7 @@
     },
     "first_seen": "2026-06-28",
     "is_new": false,
-    "days_left": 8,
+    "days_left": 7,
     "excluded": true
   },
   {
@@ -335,7 +383,7 @@
     },
     "first_seen": "2026-07-05",
     "is_new": false,
-    "days_left": 8,
+    "days_left": 7,
     "excluded": true
   },
   {
@@ -352,7 +400,7 @@
     },
     "first_seen": "2026-07-05",
     "is_new": false,
-    "days_left": 8
+    "days_left": 7
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54247528",
@@ -368,7 +416,7 @@
     },
     "first_seen": "2026-06-22",
     "is_new": false,
-    "days_left": 10,
+    "days_left": 9,
     "excluded": true
   },
   {
@@ -385,7 +433,7 @@
     },
     "first_seen": "2026-06-22",
     "is_new": false,
-    "days_left": 10,
+    "days_left": 9,
     "excluded": true
   },
   {
@@ -402,7 +450,7 @@
     },
     "first_seen": "2026-06-22",
     "is_new": false,
-    "days_left": 10,
+    "days_left": 9,
     "excluded": true
   },
   {
@@ -419,7 +467,7 @@
     },
     "first_seen": "2026-06-23",
     "is_new": false,
-    "days_left": 11,
+    "days_left": 10,
     "excluded": true
   },
   {
@@ -436,7 +484,7 @@
     },
     "first_seen": "2026-07-08",
     "is_new": false,
-    "days_left": 11,
+    "days_left": 10,
     "excluded": true
   },
   {
@@ -453,7 +501,7 @@
     },
     "first_seen": "2026-06-23",
     "is_new": false,
-    "days_left": 11,
+    "days_left": 10,
     "excluded": true
   },
   {
@@ -470,7 +518,7 @@
     },
     "first_seen": "2026-07-09",
     "is_new": false,
-    "days_left": 12,
+    "days_left": 11,
     "excluded": true
   },
   {
@@ -487,7 +535,7 @@
     },
     "first_seen": "2026-07-09",
     "is_new": false,
-    "days_left": 12,
+    "days_left": 11,
     "excluded": true
   },
   {
@@ -504,7 +552,7 @@
     },
     "first_seen": "2026-07-10",
     "is_new": false,
-    "days_left": 13,
+    "days_left": 12,
     "excluded": true
   },
   {
@@ -521,7 +569,7 @@
     },
     "first_seen": "2026-07-10",
     "is_new": false,
-    "days_left": 13,
+    "days_left": 12,
     "excluded": true
   },
   {
@@ -538,7 +586,7 @@
     },
     "first_seen": "2026-07-11",
     "is_new": false,
-    "days_left": 14,
+    "days_left": 13,
     "excluded": true
   },
   {
@@ -555,7 +603,7 @@
     },
     "first_seen": "2026-07-11",
     "is_new": false,
-    "days_left": 14,
+    "days_left": 13,
     "excluded": true
   },
   {
@@ -572,7 +620,7 @@
     },
     "first_seen": "2026-06-14",
     "is_new": false,
-    "days_left": 16,
+    "days_left": 15,
     "excluded": true
   },
   {
@@ -589,7 +637,7 @@
     },
     "first_seen": "2026-07-01",
     "is_new": false,
-    "days_left": 19
+    "days_left": 18
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54439384",
@@ -605,7 +653,7 @@
     },
     "first_seen": "2026-07-11",
     "is_new": false,
-    "days_left": 19,
+    "days_left": 18,
     "excluded": true
   },
   {
@@ -623,7 +671,7 @@
     },
     "first_seen": "2026-07-06",
     "is_new": false,
-    "days_left": 19,
+    "days_left": 18,
     "excluded": true
   },
   {
@@ -640,7 +688,7 @@
     },
     "first_seen": "2026-07-03",
     "is_new": false,
-    "days_left": 20,
+    "days_left": 19,
     "excluded": true
   },
   {
@@ -657,7 +705,7 @@
     },
     "first_seen": "2026-07-03",
     "is_new": false,
-    "days_left": 20,
+    "days_left": 19,
     "excluded": true
   },
   {
@@ -674,7 +722,7 @@
     },
     "first_seen": "2026-07-08",
     "is_new": false,
-    "days_left": 26,
+    "days_left": 25,
     "excluded": true
   },
   {
@@ -727,6 +775,22 @@
     "is_new": false,
     "days_left": null,
     "excluded": true
+  },
+  {
+    "id": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2606100004882",
+    "title": "CTO 채용-디스플레이 소재기술기업",
+    "company": "(주)위드브레인",
+    "link": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2606100004882&src=etc*search",
+    "date": "23시 마감",
+    "career": "경력 10년↑",
+    "site_name": "인크루트 (Incruit)",
+    "keyword": "디스플레이",
+    "links": {
+      "인크루트 (Incruit)": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2606100004882&src=etc*search"
+    },
+    "first_seen": "2026-06-14",
+    "is_new": false,
+    "days_left": null
   },
   {
     "id": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2605230000375",
