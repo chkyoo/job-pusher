@@ -1100,7 +1100,8 @@
     },
     "first_seen": "2026-07-30",
     "is_new": false,
-    "days_left": null
+    "days_left": null,
+    "excluded": true
   },
   {
     "id": "https://www.jobkorea.co.kr/Recruit/GI_Read/49650175",
