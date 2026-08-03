@@ -836,7 +836,8 @@
     },
     "first_seen": "2026-07-28",
     "is_new": false,
-    "days_left": 25
+    "days_left": 25,
+    "excluded": true
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54621179",
