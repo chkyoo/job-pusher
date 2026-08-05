@@ -1,19 +1,19 @@
 [
   {
-    "id": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2608040001073",
-    "title": "국내  디스플레이 (OLED)소재 중견기업 - 영업 그룹장",
-    "company": "엑스다임 (주)",
-    "link": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2608040001073&src=etc*search",
-    "date": "~09.03 (목)",
-    "career": "경력 15년↑",
-    "site_name": "인크루트 (Incruit)",
-    "keyword": "OLED, 디스플레이",
+    "id": "https://www.jobkorea.co.kr/Recruit/GI_Read/49709253",
+    "title": "반도체,디스플레이산업분야 CTO",
+    "company": "중소기업(300명이하)",
+    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/49709253?PageGbn=HH&logpath=1&stext=micro+oled&listno=14&sc=630",
+    "date": "상세 정보 참조",
+    "career": "경력10년↑",
+    "site_name": "잡코리아 (JobKorea)",
+    "keyword": "디스플레이, 반도체",
     "links": {
-      "인크루트 (Incruit)": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2608040001073&src=etc*search"
+      "잡코리아 (JobKorea)": "https://www.jobkorea.co.kr/Recruit/GI_Read/49709253?PageGbn=HH&logpath=1&stext=micro+oled&listno=14&sc=630"
     },
-    "first_seen": "2026-08-04",
+    "first_seen": "2026-08-05",
     "is_new": true,
-    "days_left": 30
+    "days_left": null
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54523223",
@@ -29,7 +29,7 @@
     },
     "first_seen": "2026-07-21",
     "is_new": false,
-    "days_left": 1
+    "days_left": 0
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54598722",
@@ -45,7 +45,7 @@
     },
     "first_seen": "2026-07-29",
     "is_new": false,
-    "days_left": 1,
+    "days_left": 0,
     "excluded": true
   },
   {
@@ -62,7 +62,7 @@
     },
     "first_seen": "2026-07-29",
     "is_new": false,
-    "days_left": 1,
+    "days_left": 0,
     "excluded": true
   },
   {
@@ -79,7 +79,7 @@
     },
     "first_seen": "2026-07-22",
     "is_new": false,
-    "days_left": 2,
+    "days_left": 1,
     "excluded": true
   },
   {
@@ -96,7 +96,7 @@
     },
     "first_seen": "2026-07-22",
     "is_new": false,
-    "days_left": 2,
+    "days_left": 1,
     "excluded": true
   },
   {
@@ -113,24 +113,8 @@
     },
     "first_seen": "2026-07-08",
     "is_new": false,
-    "days_left": 3,
+    "days_left": 2,
     "excluded": true
-  },
-  {
-    "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54625698",
-    "title": "차세대 신소재 연구개발 연구소 CTO 임원 혁신 디스플레이 소재",
-    "company": "닥터파인드",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54625698&location=ts&searchword=OLED&searchType=search&paid_fl=n&search_uuid=1af5bc37-a99a-48c5-8927-820769b28650",
-    "date": "~ 08/07(금)",
-    "career": "경력10년↑",
-    "site_name": "사람인 (Saramin)",
-    "keyword": "디스플레이",
-    "links": {
-      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54625698&location=ts&searchword=OLED&searchType=search&paid_fl=n&search_uuid=1af5bc37-a99a-48c5-8927-820769b28650"
-    },
-    "first_seen": "2026-08-01",
-    "is_new": false,
-    "days_left": 3
   },
   {
     "id": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2607290003356",
@@ -146,7 +130,7 @@
     },
     "first_seen": "2026-07-29",
     "is_new": false,
-    "days_left": 3,
+    "days_left": 2,
     "excluded": true
   },
   {
@@ -163,7 +147,7 @@
     },
     "first_seen": "2026-07-29",
     "is_new": false,
-    "days_left": 3,
+    "days_left": 2,
     "excluded": true
   },
   {
@@ -181,7 +165,7 @@
     },
     "first_seen": "2026-07-24",
     "is_new": false,
-    "days_left": 4,
+    "days_left": 3,
     "excluded": true
   },
   {
@@ -198,7 +182,7 @@
     },
     "first_seen": "2026-07-24",
     "is_new": false,
-    "days_left": 4,
+    "days_left": 3,
     "excluded": true
   },
   {
@@ -215,7 +199,7 @@
     },
     "first_seen": "2026-07-24",
     "is_new": false,
-    "days_left": 4,
+    "days_left": 3,
     "excluded": true
   },
   {
@@ -232,24 +216,24 @@
     },
     "first_seen": "2026-07-24",
     "is_new": false,
-    "days_left": 4,
+    "days_left": 3,
     "excluded": true
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54564622",
     "title": "sn[중소/디스플레이소재/딥테크/관악구]dis 2.CTO",
     "company": "(주)에이치알글로벌네트워크",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54564622&location=ts&searchword=micro+oled&searchType=search&paid_fl=n&search_uuid=018ed403-3c68-4163-9789-c283d4b40319",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54564622&location=ts&searchword=micro+oled&searchType=search&paid_fl=n&search_uuid=398c8923-2c43-4706-8f90-15eadad31ba7",
     "date": "~ 08/09(일)",
     "career": "경력 10~20년",
     "site_name": "사람인 (Saramin)",
     "keyword": "디스플레이",
     "links": {
-      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54564622&location=ts&searchword=micro+oled&searchType=search&paid_fl=n&search_uuid=018ed403-3c68-4163-9789-c283d4b40319"
+      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54564622&location=ts&searchword=micro+oled&searchType=search&paid_fl=n&search_uuid=398c8923-2c43-4706-8f90-15eadad31ba7"
     },
     "first_seen": "2026-07-25",
     "is_new": false,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54564725",
@@ -265,7 +249,7 @@
     },
     "first_seen": "2026-07-25",
     "is_new": false,
-    "days_left": 5,
+    "days_left": 4,
     "excluded": true
   },
   {
@@ -282,7 +266,7 @@
     },
     "first_seen": "2026-08-03",
     "is_new": false,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54639308",
@@ -298,7 +282,7 @@
     },
     "first_seen": "2026-08-03",
     "is_new": false,
-    "days_left": 6,
+    "days_left": 5,
     "excluded": true
   },
   {
@@ -315,7 +299,7 @@
     },
     "first_seen": "2026-07-26",
     "is_new": false,
-    "days_left": 6,
+    "days_left": 5,
     "excluded": true
   },
   {
@@ -332,7 +316,7 @@
     },
     "first_seen": "2026-07-27",
     "is_new": false,
-    "days_left": 7,
+    "days_left": 6,
     "excluded": true
   },
   {
@@ -349,7 +333,7 @@
     },
     "first_seen": "2026-07-27",
     "is_new": false,
-    "days_left": 7,
+    "days_left": 6,
     "excluded": true
   },
   {
@@ -366,7 +350,7 @@
     },
     "first_seen": "2026-07-27",
     "is_new": false,
-    "days_left": 7,
+    "days_left": 6,
     "excluded": true
   },
   {
@@ -383,7 +367,7 @@
     },
     "first_seen": "2026-07-29",
     "is_new": false,
-    "days_left": 9
+    "days_left": 8
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54611646",
@@ -399,7 +383,7 @@
     },
     "first_seen": "2026-07-30",
     "is_new": false,
-    "days_left": 10,
+    "days_left": 9,
     "excluded": true
   },
   {
@@ -416,7 +400,7 @@
     },
     "first_seen": "2026-07-31",
     "is_new": false,
-    "days_left": 10
+    "days_left": 9
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54621454",
@@ -432,7 +416,7 @@
     },
     "first_seen": "2026-07-31",
     "is_new": false,
-    "days_left": 10,
+    "days_left": 9,
     "excluded": true
   },
   {
@@ -449,7 +433,7 @@
     },
     "first_seen": "2026-07-15",
     "is_new": false,
-    "days_left": 10,
+    "days_left": 9,
     "excluded": true
   },
   {
@@ -466,7 +450,7 @@
     },
     "first_seen": "2026-07-31",
     "is_new": false,
-    "days_left": 11,
+    "days_left": 10,
     "excluded": true
   },
   {
@@ -483,7 +467,7 @@
     },
     "first_seen": "2026-07-31",
     "is_new": false,
-    "days_left": 11,
+    "days_left": 10,
     "excluded": true
   },
   {
@@ -500,7 +484,7 @@
     },
     "first_seen": "2026-08-01",
     "is_new": false,
-    "days_left": 12,
+    "days_left": 11,
     "excluded": true
   },
   {
@@ -517,7 +501,7 @@
     },
     "first_seen": "2026-08-01",
     "is_new": false,
-    "days_left": 12,
+    "days_left": 11,
     "excluded": true
   },
   {
@@ -534,7 +518,7 @@
     },
     "first_seen": "2026-08-01",
     "is_new": false,
-    "days_left": 12,
+    "days_left": 11,
     "excluded": true
   },
   {
@@ -551,7 +535,7 @@
     },
     "first_seen": "2026-08-01",
     "is_new": false,
-    "days_left": 12,
+    "days_left": 11,
     "excluded": true
   },
   {
@@ -568,7 +552,7 @@
     },
     "first_seen": "2026-08-02",
     "is_new": false,
-    "days_left": 13,
+    "days_left": 12,
     "excluded": true
   },
   {
@@ -585,7 +569,7 @@
     },
     "first_seen": "2026-08-02",
     "is_new": false,
-    "days_left": 13,
+    "days_left": 12,
     "excluded": true
   },
   {
@@ -602,7 +586,7 @@
     },
     "first_seen": "2026-08-02",
     "is_new": false,
-    "days_left": 13,
+    "days_left": 12,
     "excluded": true
   },
   {
@@ -619,7 +603,7 @@
     },
     "first_seen": "2026-08-02",
     "is_new": false,
-    "days_left": 13,
+    "days_left": 12,
     "excluded": true
   },
   {
@@ -636,7 +620,7 @@
     },
     "first_seen": "2026-07-20",
     "is_new": false,
-    "days_left": 13,
+    "days_left": 12,
     "excluded": true
   },
   {
@@ -653,7 +637,7 @@
     },
     "first_seen": "2026-07-21",
     "is_new": false,
-    "days_left": 16,
+    "days_left": 15,
     "excluded": true
   },
   {
@@ -670,7 +654,7 @@
     },
     "first_seen": "2026-07-21",
     "is_new": false,
-    "days_left": 16,
+    "days_left": 15,
     "excluded": true
   },
   {
@@ -687,7 +671,7 @@
     },
     "first_seen": "2026-07-24",
     "is_new": false,
-    "days_left": 18,
+    "days_left": 17,
     "excluded": true
   },
   {
@@ -704,7 +688,7 @@
     },
     "first_seen": "2026-07-23",
     "is_new": false,
-    "days_left": 18,
+    "days_left": 17,
     "excluded": true
   },
   {
@@ -721,7 +705,7 @@
     },
     "first_seen": "2026-07-25",
     "is_new": false,
-    "days_left": 20,
+    "days_left": 19,
     "excluded": true
   },
   {
@@ -738,7 +722,7 @@
     },
     "first_seen": "2026-07-28",
     "is_new": false,
-    "days_left": 23,
+    "days_left": 22,
     "excluded": true
   },
   {
@@ -755,7 +739,7 @@
     },
     "first_seen": "2026-07-31",
     "is_new": false,
-    "days_left": 23,
+    "days_left": 22,
     "excluded": true
   },
   {
@@ -772,7 +756,7 @@
     },
     "first_seen": "2026-07-29",
     "is_new": false,
-    "days_left": 24,
+    "days_left": 23,
     "excluded": true
   },
   {
@@ -789,7 +773,7 @@
     },
     "first_seen": "2026-08-02",
     "is_new": false,
-    "days_left": 28,
+    "days_left": 27,
     "excluded": true
   },
   {
@@ -805,6 +789,22 @@
       "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54638830&location=ts&searchword=%EB%B0%98%EB%8F%84%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=21bc9ece-efd8-49b1-a75c-90b53f507fb3"
     },
     "first_seen": "2026-08-03",
+    "is_new": false,
+    "days_left": 28
+  },
+  {
+    "id": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2608040001073",
+    "title": "국내  디스플레이 (OLED)소재 중견기업 - 영업 그룹장",
+    "company": "엑스다임 (주)",
+    "link": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2608040001073&src=etc*search",
+    "date": "~09.03 (목)",
+    "career": "경력 15년↑",
+    "site_name": "인크루트 (Incruit)",
+    "keyword": "디스플레이, OLED",
+    "links": {
+      "인크루트 (Incruit)": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2608040001073&src=etc*search"
+    },
+    "first_seen": "2026-08-04",
     "is_new": false,
     "days_left": 29
   },
@@ -960,6 +960,22 @@
     "is_new": false,
     "days_left": null,
     "excluded": true
+  },
+  {
+    "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54625698",
+    "title": "차세대 신소재 연구개발 연구소 CTO 임원 혁신 디스플레이 소재",
+    "company": "닥터파인드",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54625698&location=ts&searchword=AR+%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=2b5805e7-eb1e-4495-92f1-2f2d374f26b4",
+    "date": "내일마감",
+    "career": "경력10년↑",
+    "site_name": "사람인 (Saramin)",
+    "keyword": "디스플레이",
+    "links": {
+      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54625698&location=ts&searchword=AR+%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=2b5805e7-eb1e-4495-92f1-2f2d374f26b4"
+    },
+    "first_seen": "2026-08-01",
+    "is_new": false,
+    "days_left": null
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54559607",
@@ -1174,23 +1190,6 @@
       "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54560175&location=ts&searchword=%EB%B0%98%EB%8F%84%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=36edb24c-8217-4a8e-866b-78bef6f93b62"
     },
     "first_seen": "2026-07-24",
-    "is_new": false,
-    "days_left": null,
-    "excluded": true
-  },
-  {
-    "id": "https://www.jobkorea.co.kr/Recruit/GI_Read/49515381",
-    "title": "중국 OLED 재료 개발 전문가 부장-임원 35211",
-    "company": "중견기업(300명이상)",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/49515381?PageGbn=HH&logpath=1&stext=micro+oled&listno=10&sc=630",
-    "date": "상세 정보 참조",
-    "career": "경력15년↑",
-    "site_name": "잡코리아 (JobKorea)",
-    "keyword": "OLED",
-    "links": {
-      "잡코리아 (JobKorea)": "https://www.jobkorea.co.kr/Recruit/GI_Read/49515381?PageGbn=HH&logpath=1&stext=micro+oled&listno=10&sc=630"
-    },
-    "first_seen": "2026-07-05",
     "is_new": false,
     "days_left": null,
     "excluded": true
