@@ -1,52 +1,133 @@
 [
   {
-    "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54693185",
-    "title": "[반도체] 제조혁신 고문 (현기차 출신)",
-    "company": "글로벌서치",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54693185&location=ts&searchword=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=210375a7-8b52-4983-b2b1-e8c2e096ea96",
-    "date": "~ 08/24(월)",
-    "career": "경력20년↑",
-    "site_name": "사람인 (Saramin)",
-    "keyword": "반도체",
+    "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54705215",
+    "title": "반도체,디스플레이산업분야 소재합성연구개발팀장 / MAX9천",
+    "company": "탑커리어인사이트",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54705215&location=ts&searchword=OLED&searchType=search&paid_fl=n&search_uuid=084dd37e-0e8a-4983-a212-a87da2b3fee2",
+    "date": "~ 08/15(토)",
+    "career": "경력10년↑",
+    "site_name": "사람인 (Saramin), 인크루트 (Incruit)",
+    "keyword": "디스플레이, 반도체",
     "links": {
-      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54693185&location=ts&searchword=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=210375a7-8b52-4983-b2b1-e8c2e096ea96"
+      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54705215&location=ts&searchword=OLED&searchType=search&paid_fl=n&search_uuid=084dd37e-0e8a-4983-a212-a87da2b3fee2",
+      "인크루트 (Incruit)": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2608080000145&src=etc*search"
     },
-    "first_seen": "2026-08-09",
+    "first_seen": "2026-08-10",
+    "is_new": true,
+    "days_left": 5
+  },
+  {
+    "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54704604",
+    "title": "반도체,디스플레이산업분야 증착공정기술팀장 / MAX9천",
+    "company": "탑커리어인사이트",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54704604&location=ts&searchword=OLED&searchType=search&paid_fl=n&search_uuid=084dd37e-0e8a-4983-a212-a87da2b3fee2",
+    "date": "~ 08/15(토)",
+    "career": "경력10년↑",
+    "site_name": "사람인 (Saramin), 인크루트 (Incruit)",
+    "keyword": "디스플레이, 반도체",
+    "links": {
+      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54704604&location=ts&searchword=OLED&searchType=search&paid_fl=n&search_uuid=084dd37e-0e8a-4983-a212-a87da2b3fee2",
+      "인크루트 (Incruit)": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2608080000146&src=etc*search"
+    },
+    "first_seen": "2026-08-10",
+    "is_new": true,
+    "days_left": 5
+  },
+  {
+    "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54705191",
+    "title": "[반도체 및디스플레이장비기업] 건조기설계 Engineer",
+    "company": "(주)더라이징스타헤딩",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54705191&location=ts&searchword=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=aed4f54b-5f39-4b78-bc59-8b1e158f78e9",
+    "date": "~ 08/25(화)",
+    "career": "경력 10~17년",
+    "site_name": "사람인 (Saramin)",
+    "keyword": "디스플레이, 반도체",
+    "links": {
+      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54705191&location=ts&searchword=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=aed4f54b-5f39-4b78-bc59-8b1e158f78e9"
+    },
+    "first_seen": "2026-08-10",
     "is_new": true,
     "days_left": 15
   },
   {
-    "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54692600",
-    "title": "유명 코스닥 반도체 SoC 그룹장,팀장 (DT팀)",
-    "company": "라인서치",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54692600&location=ts&searchword=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=210375a7-8b52-4983-b2b1-e8c2e096ea96",
-    "date": "~ 08/24(월)",
+    "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54705190",
+    "title": "[반도체 및디스플레이장비기업]   자동화설계 Engineer",
+    "company": "(주)더라이징스타헤딩",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54705190&location=ts&searchword=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=aed4f54b-5f39-4b78-bc59-8b1e158f78e9",
+    "date": "~ 08/25(화)",
+    "career": "경력 10~17년",
+    "site_name": "사람인 (Saramin)",
+    "keyword": "디스플레이, 반도체",
+    "links": {
+      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54705190&location=ts&searchword=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=aed4f54b-5f39-4b78-bc59-8b1e158f78e9"
+    },
+    "first_seen": "2026-08-10",
+    "is_new": true,
+    "days_left": 15
+  },
+  {
+    "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54705180",
+    "title": "[반도체 및디스플레이장비기업]  기술영업팀장",
+    "company": "(주)더라이징스타헤딩",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54705180&location=ts&searchword=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=aed4f54b-5f39-4b78-bc59-8b1e158f78e9",
+    "date": "~ 08/25(화)",
+    "career": "경력 15~20년",
+    "site_name": "사람인 (Saramin)",
+    "keyword": "디스플레이, 반도체",
+    "links": {
+      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54705180&location=ts&searchword=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=aed4f54b-5f39-4b78-bc59-8b1e158f78e9"
+    },
+    "first_seen": "2026-08-10",
+    "is_new": true,
+    "days_left": 15
+  },
+  {
+    "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54703649",
+    "title": "[반도체디스플레이장비 중견기업] IR 홍보 팀장급 채용",
+    "company": "(주)프로써치코리아",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54703649&location=ts&searchword=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=aed4f54b-5f39-4b78-bc59-8b1e158f78e9",
+    "date": "~ 08/25(화)",
+    "career": "경력10년↑",
+    "site_name": "사람인 (Saramin)",
+    "keyword": "디스플레이, 반도체",
+    "links": {
+      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54703649&location=ts&searchword=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=aed4f54b-5f39-4b78-bc59-8b1e158f78e9"
+    },
+    "first_seen": "2026-08-10",
+    "is_new": true,
+    "days_left": 15
+  },
+  {
+    "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54703088",
+    "title": "[자율출퇴근] 반도체 Test 전문 엔지니어 (경력 10년 이상)",
+    "company": "(주)티엘아이",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54703088&location=ts&searchword=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=aed4f54b-5f39-4b78-bc59-8b1e158f78e9",
+    "date": "~ 10/09(금)",
     "career": "경력10년↑",
     "site_name": "사람인 (Saramin)",
     "keyword": "반도체",
     "links": {
-      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54692600&location=ts&searchword=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=210375a7-8b52-4983-b2b1-e8c2e096ea96"
+      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54703088&location=ts&searchword=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=aed4f54b-5f39-4b78-bc59-8b1e158f78e9"
     },
-    "first_seen": "2026-08-09",
+    "first_seen": "2026-08-10",
     "is_new": true,
-    "days_left": 15
+    "days_left": 60
   },
   {
-    "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54564725",
-    "title": "차량용 아날로그반도체연구소장  채용",
-    "company": "(주)피플케어코리아",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54564725&location=ts&searchword=%EB%B0%98%EB%8F%84%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=0700f1dc-9d48-4151-9cb9-912033e8970c",
-    "date": "~ 08/09(일)",
-    "career": "경력12년↑",
-    "site_name": "사람인 (Saramin)",
-    "keyword": "반도체",
+    "id": "https://www.jobkorea.co.kr/Recruit/GI_Read/49754710",
+    "title": "반도체,디스플레이산업분야 증착공정기술팀장",
+    "company": "중소기업(300명이하)",
+    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/49754710?PageGbn=HH&logpath=1&stext=micro+oled&listno=7&sc=630",
+    "date": "상세 정보 참조",
+    "career": "경력10년↑",
+    "site_name": "잡코리아 (JobKorea)",
+    "keyword": "디스플레이, 반도체",
     "links": {
-      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54564725&location=ts&searchword=%EB%B0%98%EB%8F%84%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=0700f1dc-9d48-4151-9cb9-912033e8970c"
+      "잡코리아 (JobKorea)": "https://www.jobkorea.co.kr/Recruit/GI_Read/49754710?PageGbn=HH&logpath=1&stext=micro+oled&listno=7&sc=630"
     },
-    "first_seen": "2026-07-25",
-    "is_new": false,
-    "days_left": 0,
-    "excluded": true
+    "first_seen": "2026-08-10",
+    "is_new": true,
+    "days_left": null
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54639308",
@@ -62,7 +143,7 @@
     },
     "first_seen": "2026-08-03",
     "is_new": false,
-    "days_left": 1,
+    "days_left": 0,
     "excluded": true
   },
   {
@@ -79,7 +160,7 @@
     },
     "first_seen": "2026-07-26",
     "is_new": false,
-    "days_left": 1,
+    "days_left": 0,
     "excluded": true
   },
   {
@@ -96,7 +177,7 @@
     },
     "first_seen": "2026-07-27",
     "is_new": false,
-    "days_left": 2,
+    "days_left": 1,
     "excluded": true
   },
   {
@@ -113,7 +194,7 @@
     },
     "first_seen": "2026-07-27",
     "is_new": false,
-    "days_left": 2,
+    "days_left": 1,
     "excluded": true
   },
   {
@@ -130,7 +211,7 @@
     },
     "first_seen": "2026-07-27",
     "is_new": false,
-    "days_left": 2,
+    "days_left": 1,
     "excluded": true
   },
   {
@@ -147,7 +228,7 @@
     },
     "first_seen": "2026-07-29",
     "is_new": false,
-    "days_left": 4
+    "days_left": 3
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54611646",
@@ -163,7 +244,7 @@
     },
     "first_seen": "2026-07-30",
     "is_new": false,
-    "days_left": 5,
+    "days_left": 4,
     "excluded": true
   },
   {
@@ -180,7 +261,7 @@
     },
     "first_seen": "2026-07-31",
     "is_new": false,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54621454",
@@ -196,40 +277,40 @@
     },
     "first_seen": "2026-07-31",
     "is_new": false,
-    "days_left": 5,
+    "days_left": 4,
     "excluded": true
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54667615",
     "title": "나노발광소재 증착공정 개발 팀장 혁신 디스플레이 소재 개발 벤",
     "company": "닥터파인드",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54667615&location=ts&searchword=OLED&searchType=search&paid_fl=n&search_uuid=b7878bb7-45ae-4491-beb3-d4b8e784fc7f",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54667615&location=ts&searchword=micro+led&searchType=search&paid_fl=n&search_uuid=efb74066-7ef6-4565-94ed-ac48c1137be1",
     "date": "~ 08/14(금)",
     "career": "경력10년↑",
     "site_name": "사람인 (Saramin)",
     "keyword": "디스플레이",
     "links": {
-      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54667615&location=ts&searchword=OLED&searchType=search&paid_fl=n&search_uuid=b7878bb7-45ae-4491-beb3-d4b8e784fc7f"
+      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54667615&location=ts&searchword=micro+led&searchType=search&paid_fl=n&search_uuid=efb74066-7ef6-4565-94ed-ac48c1137be1"
     },
     "first_seen": "2026-08-07",
     "is_new": false,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54667603",
     "title": "나노발광소재 합성기술 연구개발 팀장 혁신 디스플레이 소재 개",
     "company": "닥터파인드",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54667603&location=ts&searchword=OLED&searchType=search&paid_fl=n&search_uuid=b7878bb7-45ae-4491-beb3-d4b8e784fc7f",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54667603&location=ts&searchword=AR+%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=b64c1ebe-3da8-45fd-a3f6-220a4da4e041",
     "date": "~ 08/14(금)",
     "career": "경력10년↑",
     "site_name": "사람인 (Saramin)",
     "keyword": "디스플레이",
     "links": {
-      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54667603&location=ts&searchword=OLED&searchType=search&paid_fl=n&search_uuid=b7878bb7-45ae-4491-beb3-d4b8e784fc7f"
+      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54667603&location=ts&searchword=AR+%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=b64c1ebe-3da8-45fd-a3f6-220a4da4e041"
     },
     "first_seen": "2026-08-07",
     "is_new": false,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2607150001086",
@@ -245,7 +326,7 @@
     },
     "first_seen": "2026-07-15",
     "is_new": false,
-    "days_left": 5,
+    "days_left": 4,
     "excluded": true
   },
   {
@@ -262,7 +343,7 @@
     },
     "first_seen": "2026-07-31",
     "is_new": false,
-    "days_left": 6,
+    "days_left": 5,
     "excluded": true
   },
   {
@@ -279,7 +360,7 @@
     },
     "first_seen": "2026-07-31",
     "is_new": false,
-    "days_left": 6,
+    "days_left": 5,
     "excluded": true
   },
   {
@@ -296,7 +377,7 @@
     },
     "first_seen": "2026-08-07",
     "is_new": false,
-    "days_left": 6
+    "days_left": 5
   },
   {
     "id": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2608080000145",
@@ -312,7 +393,7 @@
     },
     "first_seen": "2026-08-07",
     "is_new": false,
-    "days_left": 6
+    "days_left": 5
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54626079",
@@ -328,7 +409,7 @@
     },
     "first_seen": "2026-08-01",
     "is_new": false,
-    "days_left": 7,
+    "days_left": 6,
     "excluded": true
   },
   {
@@ -345,7 +426,7 @@
     },
     "first_seen": "2026-08-01",
     "is_new": false,
-    "days_left": 7,
+    "days_left": 6,
     "excluded": true
   },
   {
@@ -362,7 +443,7 @@
     },
     "first_seen": "2026-08-01",
     "is_new": false,
-    "days_left": 7,
+    "days_left": 6,
     "excluded": true
   },
   {
@@ -379,7 +460,7 @@
     },
     "first_seen": "2026-08-01",
     "is_new": false,
-    "days_left": 7,
+    "days_left": 6,
     "excluded": true
   },
   {
@@ -396,7 +477,7 @@
     },
     "first_seen": "2026-08-02",
     "is_new": false,
-    "days_left": 8,
+    "days_left": 7,
     "excluded": true
   },
   {
@@ -413,7 +494,7 @@
     },
     "first_seen": "2026-08-02",
     "is_new": false,
-    "days_left": 8,
+    "days_left": 7,
     "excluded": true
   },
   {
@@ -430,7 +511,7 @@
     },
     "first_seen": "2026-08-02",
     "is_new": false,
-    "days_left": 8,
+    "days_left": 7,
     "excluded": true
   },
   {
@@ -447,7 +528,7 @@
     },
     "first_seen": "2026-08-02",
     "is_new": false,
-    "days_left": 8,
+    "days_left": 7,
     "excluded": true
   },
   {
@@ -464,7 +545,7 @@
     },
     "first_seen": "2026-07-20",
     "is_new": false,
-    "days_left": 8,
+    "days_left": 7,
     "excluded": true
   },
   {
@@ -481,7 +562,7 @@
     },
     "first_seen": "2026-07-21",
     "is_new": false,
-    "days_left": 11,
+    "days_left": 10,
     "excluded": true
   },
   {
@@ -498,7 +579,7 @@
     },
     "first_seen": "2026-07-21",
     "is_new": false,
-    "days_left": 11,
+    "days_left": 10,
     "excluded": true
   },
   {
@@ -515,7 +596,7 @@
     },
     "first_seen": "2026-08-07",
     "is_new": false,
-    "days_left": 13
+    "days_left": 12
   },
   {
     "id": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2607230002345",
@@ -531,7 +612,7 @@
     },
     "first_seen": "2026-07-24",
     "is_new": false,
-    "days_left": 13,
+    "days_left": 12,
     "excluded": true
   },
   {
@@ -548,7 +629,7 @@
     },
     "first_seen": "2026-08-07",
     "is_new": false,
-    "days_left": 13
+    "days_left": 12
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54548258",
@@ -564,7 +645,7 @@
     },
     "first_seen": "2026-07-23",
     "is_new": false,
-    "days_left": 13,
+    "days_left": 12,
     "excluded": true
   },
   {
@@ -581,7 +662,7 @@
     },
     "first_seen": "2026-08-07",
     "is_new": false,
-    "days_left": 13
+    "days_left": 12
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54686061",
@@ -597,7 +678,7 @@
     },
     "first_seen": "2026-08-07",
     "is_new": false,
-    "days_left": 13
+    "days_left": 12
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54690288",
@@ -613,7 +694,7 @@
     },
     "first_seen": "2026-08-08",
     "is_new": false,
-    "days_left": 14
+    "days_left": 13
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54690703",
@@ -628,6 +709,38 @@
       "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54690703&location=ts&searchword=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=210375a7-8b52-4983-b2b1-e8c2e096ea96"
     },
     "first_seen": "2026-08-08",
+    "is_new": false,
+    "days_left": 13
+  },
+  {
+    "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54693185",
+    "title": "[반도체] 제조혁신 고문 (현기차 출신)",
+    "company": "글로벌서치",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54693185&location=ts&searchword=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=210375a7-8b52-4983-b2b1-e8c2e096ea96",
+    "date": "~ 08/24(월)",
+    "career": "경력20년↑",
+    "site_name": "사람인 (Saramin)",
+    "keyword": "반도체",
+    "links": {
+      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54693185&location=ts&searchword=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=210375a7-8b52-4983-b2b1-e8c2e096ea96"
+    },
+    "first_seen": "2026-08-09",
+    "is_new": false,
+    "days_left": 14
+  },
+  {
+    "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54692600",
+    "title": "유명 코스닥 반도체 SoC 그룹장,팀장 (DT팀)",
+    "company": "라인서치",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54692600&location=ts&searchword=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=210375a7-8b52-4983-b2b1-e8c2e096ea96",
+    "date": "~ 08/24(월)",
+    "career": "경력10년↑",
+    "site_name": "사람인 (Saramin)",
+    "keyword": "반도체",
+    "links": {
+      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54692600&location=ts&searchword=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=210375a7-8b52-4983-b2b1-e8c2e096ea96"
+    },
+    "first_seen": "2026-08-09",
     "is_new": false,
     "days_left": 14
   },
@@ -645,7 +758,7 @@
     },
     "first_seen": "2026-07-25",
     "is_new": false,
-    "days_left": 15,
+    "days_left": 14,
     "excluded": true
   },
   {
@@ -662,7 +775,7 @@
     },
     "first_seen": "2026-07-28",
     "is_new": false,
-    "days_left": 18,
+    "days_left": 17,
     "excluded": true
   },
   {
@@ -679,7 +792,7 @@
     },
     "first_seen": "2026-07-31",
     "is_new": false,
-    "days_left": 18,
+    "days_left": 17,
     "excluded": true
   },
   {
@@ -696,7 +809,7 @@
     },
     "first_seen": "2026-08-07",
     "is_new": false,
-    "days_left": 19
+    "days_left": 18
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54587982",
@@ -712,7 +825,7 @@
     },
     "first_seen": "2026-07-29",
     "is_new": false,
-    "days_left": 19,
+    "days_left": 18,
     "excluded": true
   },
   {
@@ -729,7 +842,7 @@
     },
     "first_seen": "2026-08-02",
     "is_new": false,
-    "days_left": 23,
+    "days_left": 22,
     "excluded": true
   },
   {
@@ -746,7 +859,7 @@
     },
     "first_seen": "2026-08-03",
     "is_new": false,
-    "days_left": 24
+    "days_left": 23
   },
   {
     "id": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2608040001073",
@@ -756,13 +869,13 @@
     "date": "~09.03 (목)",
     "career": "경력 15년↑",
     "site_name": "인크루트 (Incruit)",
-    "keyword": "OLED, 디스플레이",
+    "keyword": "디스플레이, OLED",
     "links": {
       "인크루트 (Incruit)": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2608040001073&src=etc*search"
     },
     "first_seen": "2026-08-04",
     "is_new": false,
-    "days_left": 25
+    "days_left": 24
   },
   {
     "id": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2608060002174",
@@ -778,7 +891,7 @@
     },
     "first_seen": "2026-08-07",
     "is_new": false,
-    "days_left": 27
+    "days_left": 26
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54674262",
@@ -794,7 +907,7 @@
     },
     "first_seen": "2026-08-07",
     "is_new": false,
-    "days_left": 27
+    "days_left": 26
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54678473",
@@ -810,7 +923,7 @@
     },
     "first_seen": "2026-08-07",
     "is_new": false,
-    "days_left": 28
+    "days_left": 27
   },
   {
     "id": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2607270004310",
