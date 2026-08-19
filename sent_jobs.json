@@ -13,7 +13,7 @@
     },
     "first_seen": "2026-08-15",
     "is_new": false,
-    "days_left": 1
+    "days_left": 0
   },
   {
     "id": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2607210004147",
@@ -29,7 +29,7 @@
     },
     "first_seen": "2026-07-21",
     "is_new": false,
-    "days_left": 2,
+    "days_left": 1,
     "excluded": true
   },
   {
@@ -46,7 +46,7 @@
     },
     "first_seen": "2026-07-21",
     "is_new": false,
-    "days_left": 2,
+    "days_left": 1,
     "excluded": true
   },
   {
@@ -63,7 +63,7 @@
     },
     "first_seen": "2026-08-07",
     "is_new": false,
-    "days_left": 4
+    "days_left": 3
   },
   {
     "id": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2607230002345",
@@ -79,7 +79,7 @@
     },
     "first_seen": "2026-07-24",
     "is_new": false,
-    "days_left": 4,
+    "days_left": 3,
     "excluded": true
   },
   {
@@ -96,7 +96,7 @@
     },
     "first_seen": "2026-08-07",
     "is_new": false,
-    "days_left": 4
+    "days_left": 3
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54548258",
@@ -112,7 +112,7 @@
     },
     "first_seen": "2026-07-23",
     "is_new": false,
-    "days_left": 4,
+    "days_left": 3,
     "excluded": true
   },
   {
@@ -129,7 +129,7 @@
     },
     "first_seen": "2026-08-07",
     "is_new": false,
-    "days_left": 4
+    "days_left": 3
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54686061",
@@ -145,7 +145,7 @@
     },
     "first_seen": "2026-08-07",
     "is_new": false,
-    "days_left": 4
+    "days_left": 3
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54690288",
@@ -161,7 +161,7 @@
     },
     "first_seen": "2026-08-08",
     "is_new": false,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54690703",
@@ -177,7 +177,7 @@
     },
     "first_seen": "2026-08-08",
     "is_new": false,
-    "days_left": 5
+    "days_left": 4
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54693185",
@@ -193,7 +193,7 @@
     },
     "first_seen": "2026-08-09",
     "is_new": false,
-    "days_left": 6
+    "days_left": 5
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54692600",
@@ -209,7 +209,7 @@
     },
     "first_seen": "2026-08-09",
     "is_new": false,
-    "days_left": 6
+    "days_left": 5
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54564463",
@@ -225,7 +225,7 @@
     },
     "first_seen": "2026-07-25",
     "is_new": false,
-    "days_left": 6,
+    "days_left": 5,
     "excluded": true
   },
   {
@@ -242,7 +242,7 @@
     },
     "first_seen": "2026-08-10",
     "is_new": false,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54705190",
@@ -258,7 +258,7 @@
     },
     "first_seen": "2026-08-10",
     "is_new": false,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54705180",
@@ -274,7 +274,7 @@
     },
     "first_seen": "2026-08-10",
     "is_new": false,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54703649",
@@ -290,7 +290,7 @@
     },
     "first_seen": "2026-08-10",
     "is_new": false,
-    "days_left": 7
+    "days_left": 6
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54716224",
@@ -306,7 +306,7 @@
     },
     "first_seen": "2026-08-11",
     "is_new": false,
-    "days_left": 8
+    "days_left": 7
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54717065",
@@ -322,7 +322,7 @@
     },
     "first_seen": "2026-08-11",
     "is_new": false,
-    "days_left": 8
+    "days_left": 7
   },
   {
     "id": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2607280002208",
@@ -338,7 +338,7 @@
     },
     "first_seen": "2026-07-28",
     "is_new": false,
-    "days_left": 9,
+    "days_left": 8,
     "excluded": true
   },
   {
@@ -355,7 +355,7 @@
     },
     "first_seen": "2026-08-12",
     "is_new": false,
-    "days_left": 9
+    "days_left": 8
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54621179",
@@ -371,7 +371,7 @@
     },
     "first_seen": "2026-07-31",
     "is_new": false,
-    "days_left": 9,
+    "days_left": 8,
     "excluded": true
   },
   {
@@ -388,7 +388,7 @@
     },
     "first_seen": "2026-08-07",
     "is_new": false,
-    "days_left": 10
+    "days_left": 9
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54587982",
@@ -404,7 +404,7 @@
     },
     "first_seen": "2026-07-29",
     "is_new": false,
-    "days_left": 10,
+    "days_left": 9,
     "excluded": true
   },
   {
@@ -421,7 +421,7 @@
     },
     "first_seen": "2026-08-16",
     "is_new": false,
-    "days_left": 13
+    "days_left": 12
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54760556",
@@ -437,7 +437,7 @@
     },
     "first_seen": "2026-08-16",
     "is_new": false,
-    "days_left": 13
+    "days_left": 12
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54763331",
@@ -453,7 +453,7 @@
     },
     "first_seen": "2026-08-17",
     "is_new": false,
-    "days_left": 13
+    "days_left": 12
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54761245",
@@ -469,7 +469,7 @@
     },
     "first_seen": "2026-08-16",
     "is_new": false,
-    "days_left": 13
+    "days_left": 12
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54761244",
@@ -485,7 +485,7 @@
     },
     "first_seen": "2026-08-16",
     "is_new": false,
-    "days_left": 13
+    "days_left": 12
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54761562",
@@ -501,7 +501,7 @@
     },
     "first_seen": "2026-08-17",
     "is_new": false,
-    "days_left": 14
+    "days_left": 13
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54761446",
@@ -517,7 +517,7 @@
     },
     "first_seen": "2026-08-17",
     "is_new": false,
-    "days_left": 14
+    "days_left": 13
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54627563",
@@ -533,7 +533,7 @@
     },
     "first_seen": "2026-08-02",
     "is_new": false,
-    "days_left": 14,
+    "days_left": 13,
     "excluded": true
   },
   {
@@ -550,7 +550,7 @@
     },
     "first_seen": "2026-08-03",
     "is_new": false,
-    "days_left": 15
+    "days_left": 14
   },
   {
     "id": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2608040001073",
@@ -566,7 +566,7 @@
     },
     "first_seen": "2026-08-04",
     "is_new": false,
-    "days_left": 16
+    "days_left": 15
   },
   {
     "id": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2608060002174",
@@ -582,7 +582,7 @@
     },
     "first_seen": "2026-08-07",
     "is_new": false,
-    "days_left": 18
+    "days_left": 17
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54674262",
@@ -598,7 +598,7 @@
     },
     "first_seen": "2026-08-07",
     "is_new": false,
-    "days_left": 18
+    "days_left": 17
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54678473",
@@ -614,7 +614,7 @@
     },
     "first_seen": "2026-08-07",
     "is_new": false,
-    "days_left": 19
+    "days_left": 18
   },
   {
     "id": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2608120002094",
@@ -630,7 +630,7 @@
     },
     "first_seen": "2026-08-12",
     "is_new": false,
-    "days_left": 24
+    "days_left": 23
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54754385",
@@ -646,7 +646,7 @@
     },
     "first_seen": "2026-08-14",
     "is_new": false,
-    "days_left": 26
+    "days_left": 25
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54754352",
@@ -662,7 +662,7 @@
     },
     "first_seen": "2026-08-14",
     "is_new": false,
-    "days_left": 26
+    "days_left": 25
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54755462",
@@ -678,7 +678,7 @@
     },
     "first_seen": "2026-08-14",
     "is_new": false,
-    "days_left": 26
+    "days_left": 25
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54703088",
@@ -694,7 +694,7 @@
     },
     "first_seen": "2026-08-10",
     "is_new": false,
-    "days_left": 52
+    "days_left": 51
   },
   {
     "id": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2607270004310",
