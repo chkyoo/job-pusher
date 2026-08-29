@@ -608,7 +608,8 @@
     },
     "first_seen": "2026-08-08",
     "is_new": false,
-    "days_left": null
+    "days_left": null,
+    "excluded": true
   },
   {
     "id": "https://job.incruit.com/jobdb_info/jobpost.asp?job=2608030004111",
