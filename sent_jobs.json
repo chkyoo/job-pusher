@@ -1,51 +1,35 @@
 [
   {
-    "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55056358",
-    "title": "반도체/SoC 제품 글로벌 영업총괄 임원 채용(반도체칩셋 제조사)",
-    "company": "(주)라온서치",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55056358&location=ts&searchword=%EB%B0%98%EB%8F%84%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=d5dbc1d3-198b-42b0-b853-4c851f96904d",
-    "date": "~ 09/21(월)",
-    "career": "경력 15~20년",
+    "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55070235",
+    "title": "코스닥상장사 반도체가스 글로벌영업팀장 모집 - 근무지경기평택",
+    "company": "에이치알브로스",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55070235&location=ts&searchword=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=fc33084b-db31-4640-86d7-7a16b5c8bd58",
+    "date": "~ 10/03(토)",
+    "career": "경력15년↑",
     "site_name": "사람인 (Saramin)",
     "keyword": "반도체",
     "links": {
-      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55056358&location=ts&searchword=%EB%B0%98%EB%8F%84%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=d5dbc1d3-198b-42b0-b853-4c851f96904d"
+      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55070235&location=ts&searchword=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&searchType=search&paid_fl=n&search_uuid=fc33084b-db31-4640-86d7-7a16b5c8bd58"
     },
     "first_seen": "2026-09-17",
     "is_new": true,
-    "days_left": 4
+    "days_left": 16
   },
   {
-    "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55056141",
-    "title": "코스닥 반도체장비제조사 원가/관리회계 [근무 충남아산]",
-    "company": "에이치알브로스",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55056141&location=ts&searchword=OLED&searchType=search&paid_fl=n&search_uuid=8c00a94d-a943-4995-89d8-53c4de125de0",
-    "date": "~ 10/01(목)",
+    "id": "https://www.jobkorea.co.kr/Recruit/GI_Read/50008775",
+    "title": "중국 OLED 재료 구조 개발 상무 2935",
+    "company": "중견기업(300명이상)",
+    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/50008775?PageGbn=HH&logpath=1&stext=micro+oled&listno=5&sc=630",
+    "date": "상세 정보 참조",
     "career": "경력10년↑",
-    "site_name": "사람인 (Saramin)",
-    "keyword": "반도체",
+    "site_name": "잡코리아 (JobKorea)",
+    "keyword": "OLED",
     "links": {
-      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55056141&location=ts&searchword=OLED&searchType=search&paid_fl=n&search_uuid=8c00a94d-a943-4995-89d8-53c4de125de0"
+      "잡코리아 (JobKorea)": "https://www.jobkorea.co.kr/Recruit/GI_Read/50008775?PageGbn=HH&logpath=1&stext=micro+oled&listno=5&sc=630"
     },
     "first_seen": "2026-09-17",
     "is_new": true,
-    "days_left": 14
-  },
-  {
-    "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55056129",
-    "title": "코스닥반도체검사장비사 RF엔지니어 [근무 경기수원]",
-    "company": "에이치알브로스",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55056129&location=ts&searchword=%EB%B0%98%EB%8F%84%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=d5dbc1d3-198b-42b0-b853-4c851f96904d",
-    "date": "~ 10/01(목)",
-    "career": "경력10년↑",
-    "site_name": "사람인 (Saramin)",
-    "keyword": "반도체",
-    "links": {
-      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55056129&location=ts&searchword=%EB%B0%98%EB%8F%84%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=d5dbc1d3-198b-42b0-b853-4c851f96904d"
-    },
-    "first_seen": "2026-09-17",
-    "is_new": true,
-    "days_left": 14
+    "days_left": null
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55020959",
@@ -336,6 +320,22 @@
     "first_seen": "2026-09-04",
     "is_new": false,
     "days_left": 3
+  },
+  {
+    "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55056358",
+    "title": "반도체/SoC 제품 글로벌 영업총괄 임원 채용(반도체칩셋 제조사)",
+    "company": "(주)라온서치",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55056358&location=ts&searchword=%EB%B0%98%EB%8F%84%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=d5dbc1d3-198b-42b0-b853-4c851f96904d",
+    "date": "~ 09/21(월)",
+    "career": "경력 15~20년",
+    "site_name": "사람인 (Saramin)",
+    "keyword": "반도체",
+    "links": {
+      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55056358&location=ts&searchword=%EB%B0%98%EB%8F%84%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=d5dbc1d3-198b-42b0-b853-4c851f96904d"
+    },
+    "first_seen": "2026-09-17",
+    "is_new": false,
+    "days_left": 4
   },
   {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54954060",
@@ -695,6 +695,38 @@
     "days_left": 14
   },
   {
+    "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55056141",
+    "title": "코스닥 반도체장비제조사 원가/관리회계 [근무 충남아산]",
+    "company": "에이치알브로스",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55056141&location=ts&searchword=OLED&searchType=search&paid_fl=n&search_uuid=90cca72c-0d1d-40a9-8842-de3a632d7fe7",
+    "date": "~ 10/01(목)",
+    "career": "경력10년↑",
+    "site_name": "사람인 (Saramin)",
+    "keyword": "반도체",
+    "links": {
+      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55056141&location=ts&searchword=OLED&searchType=search&paid_fl=n&search_uuid=90cca72c-0d1d-40a9-8842-de3a632d7fe7"
+    },
+    "first_seen": "2026-09-17",
+    "is_new": false,
+    "days_left": 14
+  },
+  {
+    "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55056129",
+    "title": "코스닥반도체검사장비사 RF엔지니어 [근무 경기수원]",
+    "company": "에이치알브로스",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55056129&location=ts&searchword=%EB%B0%98%EB%8F%84%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=d5dbc1d3-198b-42b0-b853-4c851f96904d",
+    "date": "~ 10/01(목)",
+    "career": "경력10년↑",
+    "site_name": "사람인 (Saramin)",
+    "keyword": "반도체",
+    "links": {
+      "사람인 (Saramin)": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55056129&location=ts&searchword=%EB%B0%98%EB%8F%84%EC%B2%B4&searchType=search&paid_fl=n&search_uuid=d5dbc1d3-198b-42b0-b853-4c851f96904d"
+    },
+    "first_seen": "2026-09-17",
+    "is_new": false,
+    "days_left": 14
+  },
+  {
     "id": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54938668",
     "title": "미국계반도체장비사  Electrical Engineer 채용 (수석급)",
     "company": "한국서치주식회사",
@@ -957,13 +989,13 @@
     "id": "https://www.jobkorea.co.kr/Recruit/GI_Read/49852425",
     "title": "IT, 반도체, Solar, Display 해외 및 국내 기술 및 장비 영업팀(팀장급)",
     "company": "㈜엔씨디",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/49852425?Oem_Code=C1&logpath=1&stext=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&listno=16&sc=630",
+    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/49852425?Oem_Code=C1&logpath=1&stext=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&listno=19&sc=630",
     "date": "상세 정보 참조",
     "career": "경력15년↑",
     "site_name": "잡코리아 (JobKorea)",
     "keyword": "반도체",
     "links": {
-      "잡코리아 (JobKorea)": "https://www.jobkorea.co.kr/Recruit/GI_Read/49852425?Oem_Code=C1&logpath=1&stext=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&listno=16&sc=630"
+      "잡코리아 (JobKorea)": "https://www.jobkorea.co.kr/Recruit/GI_Read/49852425?Oem_Code=C1&logpath=1&stext=%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4&listno=19&sc=630"
     },
     "first_seen": "2026-08-28",
     "is_new": false,
@@ -973,13 +1005,13 @@
     "id": "https://www.jobkorea.co.kr/Recruit/GI_Read/49905735",
     "title": "[중국기업] OLED G6이상 시스템 선원설계 및 점원설계 전문가 각1명",
     "company": "잡뉴스솔로몬서치",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/49905735?PageGbn=HH&logpath=1&stext=micro+oled&listno=20&sc=630",
+    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/49905735?PageGbn=HH&logpath=1&stext=micro+oled&listno=19&sc=630",
     "date": "상세 정보 참조",
     "career": "경력10년↑",
     "site_name": "잡코리아 (JobKorea)",
     "keyword": "OLED",
     "links": {
-      "잡코리아 (JobKorea)": "https://www.jobkorea.co.kr/Recruit/GI_Read/49905735?PageGbn=HH&logpath=1&stext=micro+oled&listno=20&sc=630"
+      "잡코리아 (JobKorea)": "https://www.jobkorea.co.kr/Recruit/GI_Read/49905735?PageGbn=HH&logpath=1&stext=micro+oled&listno=19&sc=630"
     },
     "first_seen": "2026-09-02",
     "is_new": false,
@@ -989,13 +1021,13 @@
     "id": "https://www.jobkorea.co.kr/Recruit/GI_Read/49994950",
     "title": "중국 OLED 기계설계 전문가 2933",
     "company": "중견기업(300명이상)",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/49994950?PageGbn=HH&logpath=1&stext=micro+oled&listno=14&sc=630",
+    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/49994950?PageGbn=HH&logpath=1&stext=micro+oled&listno=13&sc=630",
     "date": "상세 정보 참조",
     "career": "경력10년↑",
     "site_name": "잡코리아 (JobKorea)",
     "keyword": "OLED",
     "links": {
-      "잡코리아 (JobKorea)": "https://www.jobkorea.co.kr/Recruit/GI_Read/49994950?PageGbn=HH&logpath=1&stext=micro+oled&listno=14&sc=630"
+      "잡코리아 (JobKorea)": "https://www.jobkorea.co.kr/Recruit/GI_Read/49994950?PageGbn=HH&logpath=1&stext=micro+oled&listno=13&sc=630"
     },
     "first_seen": "2026-09-15",
     "is_new": false,
@@ -1005,13 +1037,13 @@
     "id": "https://www.jobkorea.co.kr/Recruit/GI_Read/49915407",
     "title": "중국 OLED 기계 점원 설계 전문가 1923",
     "company": "중견기업(300명이상)",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/49915407?PageGbn=HH&logpath=1&stext=micro+oled&listno=12&sc=630",
+    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/49915407?PageGbn=HH&logpath=1&stext=micro+oled&listno=11&sc=630",
     "date": "상세 정보 참조",
     "career": "경력10년↑",
     "site_name": "잡코리아 (JobKorea)",
     "keyword": "OLED",
     "links": {
-      "잡코리아 (JobKorea)": "https://www.jobkorea.co.kr/Recruit/GI_Read/49915407?PageGbn=HH&logpath=1&stext=micro+oled&listno=12&sc=630"
+      "잡코리아 (JobKorea)": "https://www.jobkorea.co.kr/Recruit/GI_Read/49915407?PageGbn=HH&logpath=1&stext=micro+oled&listno=11&sc=630"
     },
     "first_seen": "2026-09-04",
     "is_new": false,
@@ -1021,13 +1053,13 @@
     "id": "https://www.jobkorea.co.kr/Recruit/GI_Read/49915340",
     "title": "중국 OLED 기계 선원 설계 전문가 1923",
     "company": "중견기업(300명이상)",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/49915340?PageGbn=HH&logpath=1&stext=micro+oled&listno=13&sc=630",
+    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/49915340?PageGbn=HH&logpath=1&stext=micro+oled&listno=12&sc=630",
     "date": "상세 정보 참조",
     "career": "경력10년↑",
     "site_name": "잡코리아 (JobKorea)",
     "keyword": "OLED",
     "links": {
-      "잡코리아 (JobKorea)": "https://www.jobkorea.co.kr/Recruit/GI_Read/49915340?PageGbn=HH&logpath=1&stext=micro+oled&listno=13&sc=630"
+      "잡코리아 (JobKorea)": "https://www.jobkorea.co.kr/Recruit/GI_Read/49915340?PageGbn=HH&logpath=1&stext=micro+oled&listno=12&sc=630"
     },
     "first_seen": "2026-09-04",
     "is_new": false,
